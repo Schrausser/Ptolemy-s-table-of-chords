@@ -5,13 +5,13 @@ Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) as 
 
 $$AC⋅BD = AB⋅CD + BC⋅AD.$$
 
-![figure.\label{Figure1: Cyclic quadrilateral.}](pic1.jpg){width=60%}
+![figure.\label{Figure1: Cyclic quadrilateral.}](pic1.jpg)
 
 Chord lengths $l_0$ (fig 2.) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated as
 
 $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 
-![figure.\label{Figure2: Chord lengtht representation.}](pic2.jpg){width=60%}
+![figure.\label{Figure2: Chord lengtht representation.}](pic2.jpg)
 
 *Sixtieths* is the average interpolation number to be added to lenght $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.
 
