@@ -19,7 +19,7 @@ Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the 
 
 $$l_2=d⋅sin\frac{\alpha⋅\pi}{360}.$$
 
-Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chord.md` or `chord.xlsx` tables.
+Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.
 
 ### References
 
