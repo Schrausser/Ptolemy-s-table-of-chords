@@ -60,7 +60,7 @@ DO
  GR.ARC ac,mx-51,my-51,mx+51,my+51,0,-arc,0
  GR.ARC ac,mx-49,my-49,mx+52,my+52,0,-arc,0
  GR.TOUCH tc, tx,ty
- c0=SQR((tx-mx)^2+(ty-my)^2)     % // lengths           //
+ c0=SQR((tx-mx)^2+(ty-my)^2)     % // lengths            //
  c1=mx/c0               % // ratio to radius (mx length) //
  tx=mx+(tx-mx)*c1       % // tx to length for radius     //
  ty=my+(ty-my)*c1       % // ty to length for radius     //
@@ -69,7 +69,7 @@ DO
  a=a/mx
  b=b/mx
  c=SQR((a)^2+(b)^2)             % // chord length        //
- arc=TODEGREES(ASIN(-b))        % // angel               //
+ arc=TODEGREES(ASIN(-b))        % // angle               //
  ah=INT(c*r)                    % // hex values          //
  bh=60*(c*r-ah)
  b1h=INT(bh)
