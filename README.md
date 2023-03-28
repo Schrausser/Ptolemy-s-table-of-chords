@@ -13,7 +13,7 @@ $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 
 ![figure.\label{Figure2: Chord length representation.}](pic2.jpg)
 
-*Sixtieths* is the average interpolation number to be added to lenght $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.
+*Sixtieths* is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.
 
 Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the sine function where
 
