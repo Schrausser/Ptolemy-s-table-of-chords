@@ -21,6 +21,14 @@ $$l_2=d⋅sin\frac{\alpha⋅\pi}{360}.$$
 
 Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.
 
+![figure.\label{pic3}](pic3.jpg)
+
+
+![figure.\label{pic4}](pic4.jpg)
+
+
+![figure.\label{pic5}](pic5.jpg)
+
 ### References
 
 Ptolemaeus, C. (1515). *Almagestum CL. Ptolemei Pheludiensis Alexandrini astronomorum principis opus ingens ac nobile omnes celoru motus continens.* Felicibus astris eat in lucem ductu Petri Liechtenstein coloniensis germani ...Venetiis. [https://doi.org/10.3931/e-rara-206](https://doi.org/10.3931/e-rara-206)
