@@ -30,7 +30,7 @@ Differences $diff$ show the difference between (1) *sixtieth* and arithmetical i
 ![figure.\label{pic5}](pic5.jpg)
 
 ### References
-Halma, N. (1813). *COMPOSITION MATHÉMATIQUE DE CLAUDE PTOLÉMÉE.* TRADUITE POUR LA PREMIÈRE FOIS PU GREC FN FRANÇAIS, SUR LES MANUSCRITS ORIGINAUX DE LA BIBLIOTHÈQUE IMPÉRIALE DE PARIS, Par M. HALMA; ET SUIVIE DES NOTES DE M. DELAMBRE, ... A PARIS, CHEZ HENRI GRAND, LIBRAIRE, RUE SAINT-ANDRÉ-DES-ARCS, N° 51.
+Halma, N. (1813). *COMPOSITION MATHÉMATIQUE DE CLAUDE PTOLÉMÉE.* TRADUITE POUR LA PREMIÈRE FOIS DU GREC EN FRANÇAIS, SUR LES MANUSCRITS ORIGINAUX DE LA BIBLIOTHÈQUE IMPÉRIALE DE PARIS, Par M. HALMA; ET SUIVIE DES NOTES DE M. DELAMBRE, ... A PARIS, CHEZ HENRI GRAND, LIBRAIRE, RUE SAINT-ANDRÉ-DES-ARCS, N° 51.
 [https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf](https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf)
 
 Ptolemaeus, C. (1515). *Almagestum CL. Ptolemei Pheludiensis Alexandrini astronomorum principis opus ingens ac nobile omnes celoru motus continens.* Felicibus astris eat in lucem ductu Petri Liechtenstein coloniensis germani ...Venetiis. [https://doi.org/10.3931/e-rara-206](https://doi.org/10.3931/e-rara-206)
