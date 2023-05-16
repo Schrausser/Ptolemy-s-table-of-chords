@@ -17,8 +17,13 @@ $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 
 Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the sine function where
 
-$$l_2=d⋅sin\frac{\alpha⋅\pi}{360}.$$
+$$l_2=d⋅\sin\frac{\alpha⋅\pi}{360}.$$
 
+This is equivalent in terms of content to distance $d$ or radius $r$ determination via angular expansion $V$ with 
+
+$$r=d⋅\tan(\frac{V}{2}).$$
+
+Here, however, no calculation is made with distance parameters $d$, but tabularized values from previous model calculations are used and interpolated to the corresponding angle values of expansion.  
 Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.
 
 ![figure.\label{pic3}](pic3.jpg)
