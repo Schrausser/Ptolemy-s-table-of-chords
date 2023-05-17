@@ -23,7 +23,11 @@ This is equivalent in terms of content to distance $d$ or radius $r$ determinati
 
 $$r=d⋅\tan(\frac{V}{2}).$$
 
-Here, however, no calculation is made with distance parameters $d$, but tabularized values from previous model calculations are used and interpolated to the corresponding angle values of expansion.  
+Here, however, no *calculation* is made with distance parameters $d$, but tabularized values from previous model calculations by means of the Pytagoraean theorem 
+
+$$a^2+b^2=c^2$$
+
+are used and interpolated to the corresponding angle values of expansion.  
 Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.
 
 ![figure.\label{pic3}](pic3.jpg)
