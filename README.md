@@ -19,24 +19,26 @@ Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the 
 
 $$l_2=d⋅\sin\frac{\alpha⋅\pi}{360}.$$
 
-This is equivalent in terms of content to distance $d$ or radius $r$ determination via angular expansion $V$ with 
+This is equivalent in terms of content to distance $s$ or radius $r$ determination via angular expansion $V$ with 
 
-$$r=d⋅\tan(\frac{V}{2}).$$
+$$r=s⋅\tan(\frac{V}{2}).$$
 
-Here, however, no *calculation* is made with distance parameters $d$, but tabularized values from previous model calculations by means of the Pytagoraean theorem 
+In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations by means of the Pytagoraean theorem 
 
 $$a^2+b^2=c^2$$
 
-are used and interpolated to the corresponding angle values of expansion.  
-Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.
+were used and interpolated to the corresponding angle values of expansion:  
 
 ![figure.\label{pic3}](pic3.jpg)
 
 
 ![figure.\label{pic4}](pic4.jpg)
 
+The parameters can then be adapted to empirical proportions by transforming the model parameter $d=120$:
 
 ![figure.\label{pic5}](pic5.jpg)
+
+Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.
 
 ### References
 Halma, N. (1813). *COMPOSITION MATHÉMATIQUE DE CLAUDE PTOLÉMÉE.* TRADUITE POUR LA PREMIÈRE FOIS DU GREC EN FRANÇAIS, SUR LES MANUSCRITS ORIGINAUX DE LA BIBLIOTHÈQUE IMPÉRIALE DE PARIS, Par M. HALMA; ET SUIVIE DES NOTES DE M. DELAMBRE, ... A PARIS, CHEZ HENRI GRAND, LIBRAIRE, RUE SAINT-ANDRÉ-DES-ARCS, N° 51.
