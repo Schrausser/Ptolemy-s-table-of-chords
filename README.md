@@ -23,7 +23,7 @@ This is equivalent in terms of content to distance $s$ or radius $r$ determinati
 
 $$r=s⋅\tan(\frac{V}{2}).$$
 
-In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations by means of the Pytagoraean theorem 
+In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations by means of the Pythagorean theorem
 
 $$a^2+b^2=c^2$$
 
