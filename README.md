@@ -23,7 +23,7 @@ This is equivalent in terms of content to distance $s$ or radius $r$ determinati
 
 $$r=s⋅\tan(\frac{V}{2}).$$
 
-In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations by means of the Pythagorean theorem
+In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations with given $d=120$ by means of the Pythagorean theorem
 
 $$a^2+b^2=c^2$$
 
@@ -34,17 +34,17 @@ were used and interpolated to the corresponding angle values of expansion:
 
 ![figure.\label{pic4}](pic4.jpg)
 
-The parameters can then be adapted to empirical proportions by transforming the model parameter $d=120$:
+Chord parameters $l_{(120)}$ can then be adapted to empirical $l_{(d)}$ proportions by transforming the model parameter with
+
+$$l_{(d)} = l_{(120)}⋅\frac{d}{120}.$$
 
 ![figure.\label{pic5}](pic5.jpg)
 
 Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.  
-Using this method in addition to methods for parallax determination, Ptolemy was able to determine e.g. Moon's distance with $d=59$ Earth radii ($er$) and radius $r=0.29er$, where $er=6378km$, quite accurate (see e.g. Goldstein, 1967).
+Using this method along with methods for parallax determination, Ptolemy was able to determine e.g. Moon's distance ($d=59$ Earth radii, $er$) and radius ($r=0.29er$, where $er=6378km$) quite accurate (see e.g. Goldstein, 1967).
 
 ### References
 Goldstein, B. R. (1967). The Arabic Version of Ptolemy’s Planetary Hypotheses. *Transactions of the American Philosophical Society, 57*(4), 3-55. [DOI:10.2307/1006040](https://doi.org/10.2307/1006040)
-
-
 
 Halma, N. (1813). *COMPOSITION MATHÉMATIQUE DE CLAUDE PTOLÉMÉE.* TRADUITE POUR LA PREMIÈRE FOIS DU GREC EN FRANÇAIS, SUR LES MANUSCRITS ORIGINAUX DE LA BIBLIOTHÈQUE IMPÉRIALE DE PARIS, Par M. HALMA; ET SUIVIE DES NOTES DE M. DELAMBRE, ... A PARIS, CHEZ HENRI GRAND, LIBRAIRE, RUE SAINT-ANDRÉ-DES-ARCS, N° 51.
 [https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf](https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf)
