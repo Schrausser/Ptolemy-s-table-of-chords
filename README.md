@@ -23,15 +23,13 @@ This is equivalent in terms of content to distance $s$ or radius $r$ determinati
 
 $$r=s⋅\tan(\frac{V}{2}).$$
 
-In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations with given $d=120$ by means of the Pythagorean theorem
+In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations with given $d=120$ by means of the *Pythagorean theorem*
 
 $$a^2+b^2=c^2$$
 
 were used and interpolated to the corresponding angle values of expansion:  
 
 ![figure.\label{pic3}](pic3.jpg)
-
-
 ![figure.\label{pic4}](pic4.jpg)
 
 Chord parameters $l_{(120)}$ can then be adapted to empirical $l_{(d)}$ proportions by transforming the model parameter with
