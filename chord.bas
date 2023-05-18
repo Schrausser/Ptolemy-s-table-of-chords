@@ -3,7 +3,7 @@
 ! // Dietmar Schrausser, 2023                                                                 //
 ! //
 _name$="CHORD"
-_ver$="v2.0.0"
+_ver$="v2.0.1"
 ! //
 INCLUDE strg_.inc
 GR.OPEN 255,255,255,255,0,1
@@ -111,7 +111,7 @@ DO
  bh=60*(c*r-ah)
  b1h=INT(bh)
  ch=60*(bh-b1h)
- hex$=INT$(ah)+"  "+INT$(bh)+"  "+INT$(ch)
+ hex$=INT$(ah)+"  "+INT$(bh)+"  "+STR$(ROUND(ch,1))
  IF a>1: arc=(90-arc)+90:ENDIF
  IF arc<0:arc=360+arc:ENDIF
  GR.RENDER
