@@ -1,7 +1,7 @@
 # Ptolemy's table of chords
 
-Famous table of chord lengths according to Ptolemy's *Almagest* (e.g. 1515) converted into decimal values and calculated in comparison using the sine function, see e.g. Halma (1813) or Toomer (1984).
-Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) as the relation between four sides and two diagonals of a cyclic quadrilateral where
+Famous table of chord lengths according to Ptolemy's *Almagest* (e.g. 1515) converted into decimal values and calculated in comparison using the sine function, see e.g. Halma (1813) or Toomer (1984).  
+Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
 
 $$AC⋅BD = AB⋅CD + BC⋅AD.$$
 
@@ -13,8 +13,7 @@ $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 
 ![figure.\label{Figure2: Chord length representation.}](pic2.jpg)
 
-*Sixtieths* is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.
-
+*Sixtieths* is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.  
 Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the sine function where
 
 $$l_2=d⋅\sin\frac{\alpha⋅\pi}{360}.$$
