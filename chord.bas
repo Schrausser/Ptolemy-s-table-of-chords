@@ -92,7 +92,7 @@ DO
    d=ABS(d):IF d>9999999 THEN d=9999999
   ENDIF
   IF dlg=3
-   INPUT "Angel arc "+_ga$+"=...°",arc,90
+   INPUT "Angle arc "+_ga$+"=...°",arc,90
    arc=ABS(arc):IF arc>180 THEN arc=180
   ENDIF
   IF dlg=5: st1=1:ENDIF
