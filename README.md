@@ -1,6 +1,6 @@
 # Ptolemy's table of chords
 
-Famous table of chord lengths according to Ptolemy's *Almagest* (e.g. 1515) converted into decimal values and calculated in comparison using the sine function, see e.g. Halma (1813) or Toomer (1984).  
+`CHORD` application for Android (Schrausser, 2023): Famous table of chord lengths according to Ptolemy's *Almagest* (e.g. 1515) converted into decimal values and calculated in comparison using the sine function, see e.g. Halma (1813) or Toomer (1984).  
 Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
 
 $$AC⋅BD = AB⋅CD + BC⋅AD.$$
@@ -49,5 +49,7 @@ Halma, N. (1813). *Composition mathématique de Claude Ptolémée.* Traduite pou
 
 Ptolemaeus, C. (1515). *Almagestum CL. Ptolemei Pheludiensis Alexandrini astronomorum principis: Opus ingens ac nobile omnes Caelorum motus continens.* Felicibus astris eat in lucem: Ductu Petri Liechtenstein Coloniensis Germani. Anno Virginei Partus, 1515, Die 10. Ia. Venetiis ex officina eiusdem litteraria. (Almagestum CL. Ptolemy Pheludiens, head of the Alexandrian astronomers: A great and noble work containing all the movements of the heavens...)
  [DOI:10.3931/e-rara-206](https://doi.org/10.3931/e-rara-206)
+
+Schrausser, D. G. (2023). Schrausser/Ptolemy-s-table-of-chords: Calculator (v2.0.1). Zenodo. [DOI:10.5281/zenodo.7948118](https://doi.org/10.5281/zenodo.7948118)
 
 Toomer, G. J. (1984). *Ptolemy's Almagest*. Duckworth, London & Springer, New York. [https://www.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/ptolemy-almagest-trans-and-ed-g-j-toomer](https://www.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/ptolemy-almagest-trans-and-ed-g-j-toomer-duckworth-classical-medieval-and-renaissance-editions-london-duckworth-1984-pp-ix-693-5500/A1F58AE8EB313960DD85E38B7C806426)
