@@ -3,7 +3,7 @@
 ! // Dietmar Schrausser, 2023                                                                 //
 ! //
 _name$="CHORD"
-_ver$="v3.0.0"
+_ver$="v3.5.0"
 ! //
 INCLUDE strg_.inc
 GR.OPEN 255,255,255,255,0,1
@@ -87,13 +87,24 @@ DO
  ENDIF
  IF m_sw=1
   IF dlg=2
-   INPUT "Modelparameter d=...",d,120
-   IF d=0 THEN d=120
-   d=ABS(d):IF d>9999999 THEN d=9999999
+   INPUT "Parameter d=...",d,120
+   d=ABS(d)
+   IF d<0.01 THEN d=0.01
+   IF d>9999999 THEN d=9999999
   ENDIF
   IF dlg=3
    INPUT "Angle arc "+_ga$+"=...°",arc,90
-   arc=ABS(arc):IF arc>180 THEN arc=180
+   arc=ABS(arc)
+   IF arc<0.001 THEN arc=0.001
+   IF arc>180 THEN arc=180
+  ENDIF
+  IF dlg=4
+   INPUT "Distance s=...",s_,s_
+   s_=ABS(s_)
+   IF s_<0.001 THEN s_=0.001
+   IF s_>999999 THEN s_=999999
+   d=s_/COS(TORADIANS(arc)/2)
+   d=ABS(2*d)
   ENDIF
   IF dlg=5: st1=1:ENDIF
   IF dlg=6: GOSUB fin:END:ENDIF
