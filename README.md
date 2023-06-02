@@ -1,4 +1,5 @@
 # Ptolemy's table of chords
+[Demo movie](https://m.youtube.com/watch?v=xUpBBr5btvk)
 
 `CHORD` application for Android (Schrausser, 2023): Famous table of chord lengths according to Ptolemy's *Almagest* (e.g. 1515) converted into decimal values and calculated in comparison using the sine function, see e.g. Halma (1813) or Toomer (1984).  
 Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
