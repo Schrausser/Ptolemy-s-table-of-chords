@@ -19,7 +19,7 @@ Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the 
 
 $$l_2=d⋅\sin\frac{\alpha⋅\pi}{360}.$$
 
-This is equivalent in terms of content to distance $s$ or radius $r$ determination via angular expansion $V$ with 
+This is equivalent in terms of content to distance $s$ or radius $r$ determination via angular diameter $V$ with 
 
 $$r=s⋅\tan(\frac{V}{2}).$$
 
