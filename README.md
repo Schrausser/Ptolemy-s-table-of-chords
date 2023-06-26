@@ -30,12 +30,13 @@ $$a^2+b^2=c^2$$
 were used and interpolated to the corresponding angle values of expansion:  
 
 ![figure.\label{anim}](anim01.gif)
-![figure.\label{pic4}](pic4.jpg)
+
 
 Chord parameters $l_{(120)}$ can then be adapted to empirical $l_{(d)}$ proportions by transforming the model parameter with
 
 $$l_{(d)} = l_{(120)}⋅\frac{d}{120}.$$
 
+![figure.\label{pic4}](pic4.jpg)
 ![figure.\label{pic5}](pic5.jpg)
 
 Chord length values $l_{(d)}$ corresponding to *empirical* distances $s$ can be expressed by multiplying with a ratio factor $\delta$ as $l_{(e)}=l_{(d)}⋅\delta$ to given angle $\alpha$, where according to *Pythagoras* $$\delta=s⋅(\frac{D}{2}^2-\frac{L}{2}^2)^{-\frac{1}{2}}.$$
