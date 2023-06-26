@@ -29,7 +29,7 @@ $$a^2+b^2=c^2$$
 
 were used and interpolated to the corresponding angle values of expansion:  
 
-![figure.\label{pic3}](pic3.jpg)
+![figure.\label{anim}](anim01.gif)
 ![figure.\label{pic4}](pic4.jpg)
 
 Chord parameters $l_{(120)}$ can then be adapted to empirical $l_{(d)}$ proportions by transforming the model parameter with
