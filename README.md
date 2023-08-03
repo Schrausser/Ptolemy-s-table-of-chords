@@ -1,7 +1,7 @@
 # Ptolemy's table of chords
 [Demo movie](https://m.youtube.com/watch?v=xUpBBr5btvk)
 
-`CHORD` application for Android (Schrausser, 2023): Famous table of chord lengths according to Ptolemy's *Almagest* (e.g. 1515) converted into decimal values and calculated in comparison using the sine function, see e.g. Halma (1813) or Toomer (1984).  
+`CHORD` application for Android (Schrausser, 2023): Famous table of chord lengths according to Ptolemy's *Almagest* (e.g. 1515, p. 7-8) converted into decimal values and calculated in comparison using the sine function, see Halma (1813, p. 38-45),  Heiberg (1898, p. 519-521) or Toomer (1984, p. 57-60).  
 Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
 
 $$AC⋅BD = AB⋅CD + BC⋅AD.$$
@@ -42,6 +42,8 @@ Using this method along with methods for parallax determination, Ptolemy was abl
 
 ### References
 Goldstein, B. R. (1967). The Arabic Version of Ptolemy’s Planetary Hypotheses. *Transactions of the American Philosophical Society, 57*(4), 3-55. [DOI:10.2307/1006040](https://doi.org/10.2307/1006040)
+
+Heiberg, J. L. (1898). *Claudii Ptolemaei Opera quae exstant omnia. Syntaxis Mathematica. Vol. 1. 1.* Lipsae: In aedibus B. G. Teubneri. [https://archive.org/details/pt1claudiiptolemaei01ptoluoft/page/n561/mode/2up](https://archive.org/details/pt1claudiiptolemaei01ptoluoft/page/n561/mode/2up)
 
 Halma, N. (1813). *Composition mathématique de Claude Ptolémée.* Traduite pour la première fois du grec en français, sur les manuscrits originaux de la Bibliothèque Impériale de Paris, par M. Halma; et suivie des notes de M. Delambre, ... A Paris, chez Henri Grand, libraire, Rue Saint-André-des-Arcs, N° 51. (Mathematical composition of Claude Ptolemy. Translated for the first time from Greek into French, on the Original Manuscripts of the Imperial Library of Paris...)
 [https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf](https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf)
