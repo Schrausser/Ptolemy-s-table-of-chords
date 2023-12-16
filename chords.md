@@ -1,5 +1,5 @@
 ~~~
-ARCS	CHORDS l0		Lenght l1 with r=		SIXTIETHS		a 1 min with r=			SIXTIETHS				l2=120sin(alpha pi/360)	
+ARCS	CHORDS l0		Length l1 with r=		SIXTIETHS		a 1 min with r=			SIXTIETHS				l2=120sin(alpha pi/360)	
 alpha				60		1					60		1				diff					diff
 0,5	0	31	25	0,5236111	0,0087269	1	2	50	0,0174537	0,0002909	0,0174537	0,0000000		 0,5235971 	-0,0000140
 1	1	2	50	1,0472222	0,0174537	1	2	50	0,0174537	0,0002909	0,0174537	0,0000000		 1,0471843 	-0,0000380
