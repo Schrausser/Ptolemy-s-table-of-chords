@@ -1,4 +1,4 @@
-Cremona, 1175
+## Cremona, 1175
 ~~~
 			Chorde							Partes tricesima superflui					Chorde decimales		Partes tricesima superflui decimales		
 Arcus			l0			l1				i0				i1				l2		diffl2		i2		diffi2	
@@ -365,7 +365,7 @@ p_	m	a°	p_	m	2	d=120		d=2		p_	m	2	3	d=120		d=2
 180	0	180,0	120	0	0	120,0000000	2,0000000	0	0	0	0	0,0000000	0,0000000	 120,0000000 	0,0000000
 ~~~
 
-Ptolemaeus, 1515
+## Ptolemaeus, 1515
 ~~~
 			Chorde							Partes tricesima superflui					Chordae decimales		Partes tricesima superflui decimales	
 Arcus			l0			l1				i0				i1				l2		diffl2		i2		diffi2
