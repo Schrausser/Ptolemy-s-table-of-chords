@@ -6,12 +6,14 @@ Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) wit
 
 $$AC⋅BD = AB⋅CD + BC⋅AD.$$
 
+Figure 1.
 ![figure.\label{Figure1: Cyclic quadrilateral.}](pic1.jpg)
 
 Chord lengths $l_0$ (fig. 2) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated as
 
 $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 
+Figure 2.
 ![figure.\label{Figure2: Chord length representation.}](pic2.jpg)
 
 *Sixtieths* is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.  
@@ -28,6 +30,8 @@ In the absence of trigonometric sine functions, however, no *calculation* was ma
 $$a^2+b^2=c^2$$
 
 were used and interpolated to the corresponding angle values of expansion:  
+
+Figure 3.
 
 ![figure.\label{anim}](anim01.gif)
 
