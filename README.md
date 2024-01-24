@@ -42,7 +42,7 @@ $$l_{(d)} = l_{(120)}⋅\frac{d}{120}.$$
 
 Chord length values $l_{(d)}$ corresponding to *empirical* distances $s$ can be expressed by multiplying with a ratio factor $\delta$ as $l_{(e)}=l_{(d)}⋅\delta$ to given angle $\alpha$, where according to *Pythagoras* $$\delta=s⋅(\frac{D}{2}^2-\frac{L}{2}^2)^{-\frac{1}{2}}.$$
 Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.  
-Using this method along with methods for parallax determination, Ptolemy was able to determine e.g. Moon's distance ($d=59$ Earth radii, $er$) and radius ($r=0.29er$, where $er=6378km$) quite accurate (see e.g. Goldstein, 1967).
+Using this method along with methods for parallax determination, Ptolemy was able to determine e.g. Moon's distance ($d=59$ Earth radii, $R_E$) and radius ($r=0.29R_E$, where $R_E=6378km$) quite accurate (see e.g. Goldstein, 1967).
 
 ### References
 Goldstein, B. R. (1967). The Arabic Version of Ptolemy’s Planetary Hypotheses. *Transactions of the American Philosophical Society, 57*(4), 3-55. [DOI:10.2307/1006040](https://doi.org/10.2307/1006040)
