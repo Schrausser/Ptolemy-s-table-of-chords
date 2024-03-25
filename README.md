@@ -23,7 +23,7 @@ $$l_2=d⋅\sin\frac{\alpha⋅\pi}{360}.$$
 
 This is equivalent in terms of content to distance $s$ or radius $r$ determination via angular diameter $V$ with 
 
-$$r=s⋅\tan(\frac{V}{2}).$$
+$$r=s⋅\tan\frac{V}{2}.$$
 
 In the absence of trigonometric sine functions, however, no *calculation* was made with distance parameters $s$, but tabularized values from previous model calculations with given $d=120$ by means of the *Pythagorean theorem*
 
@@ -40,7 +40,10 @@ Chord parameters $l_{(120)}$ can then be adapted to empirical $l_{(d)}$ proporti
 
 $$l_{(d)} = l_{(120)}⋅\frac{d}{120}.$$
 
-Chord length values $l_{(d)}$ corresponding to *empirical* distances $s$ can be expressed by multiplying with a ratio factor $\delta$ as $l_{(e)}=l_{(d)}⋅\delta$ to given angle $\alpha$, where according to *Pythagoras* $$\delta=s⋅(\frac{D}{2}^2-\frac{L}{2}^2)^{-\frac{1}{2}}.$$
+Chord length values $l_{(d)}$ corresponding to *empirical* distances $s$ can be expressed by multiplying with a ratio factor $\delta$ as $l_{(e)}=l_{(d)}⋅\delta$ to given angle $\alpha$, where according to *Pythagoras* 
+
+$$\delta=s⋅\Biggl(\frac{D}{2}^2-\frac{L}{2}^2\Biggr)^{-\frac{1}{2}}.$$
+
 Differences $diff$ show the difference between (1) *sixtieth* and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see `chords.md` or `chords.xlsx` tables.  
 Using this method along with methods for parallax determination, Ptolemy was able to determine e.g. Moon's *distance* and *radius* quite accurate:
 >"We have explained in the Almagest [...] that the least distance of the Moon is 33 earth radii, and its greatest distance 64 earth radii [...]", (Goldstein, 1967, p. 7).
