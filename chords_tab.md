@@ -21,6 +21,24 @@ T	-0,0000005 	 0,0000044 	 0,9995392 	 0,0067149
 ¹) 1,1E-19  
 ²) 2,1E-13
 
+Number of total deviation $n$ and positive deviations $k^+$ of $diff_{l2}$ as well as percentage value $P^+$ of positive deviations with $P^+=\frac{k^+}{n}100$ by tables $C, P, M, T$, where a positive deviation $k^+$ indicates a greater inaccuracy.
+
+~~~
+	P	M	T
+
+C	2	22	17
+P		24	16
+M			6
+
+C	1	14	9
+P		13	8
+M			1
+
+C	50,00	63,64	52,94
+P		54,17	50,00
+M			16,67
+~~~
+
 Arcus × Chord difference $diff_{l2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p^2$ by table $C, P, M, T$.
 
 ~~~
