@@ -21,7 +21,7 @@ T	-0,0000005 	 0,0000044 	 0,9995392 	 0,0067149
 ¹) 1,1E-19  
 ²) 2,1E-13
 
-Number of total deviation $n$ and positive deviations $k^+$ of $diff_{l2}$ as well as percentage value $P^+$ of positive deviations with $P^+=\frac{k^+}{n}100$ by tables $C, P, M, T$, where a positive deviation $k^+$ indicates a greater inaccuracy.
+Number of total deviation $n$ and *positive* deviations $k^+$ of $l_0$ as well as percentage value $P^+$ of positive deviations with $P^+=\frac{k^+}{n}100$ by tables $C, P, M, T$, where a positive deviation $k^+$ indicates an increased inaccuracy.
 
 ~~~
 	P	M	T
