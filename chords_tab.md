@@ -27,16 +27,16 @@ Number of total deviation $n$ and *positive* deviations $k^+$ of $l_0$ as well a
 	P	M	T
 
 C	2	22	17
-P		24	16
+P		22	15
 M			6
 
 C	1	14	9
-P		13	8
-M			1
+P		14	8
+M			0
 
 C	50,00	63,64	52,94
-P		54,17	50,00
-M			16,67
+P		63,64	53,33
+M			00,00
 ~~~
 
 Arcus × Chord difference $diff_{l2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p^2$ by table $C, P, M, T$.
