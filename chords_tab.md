@@ -36,12 +36,24 @@ M			0
 
 C	50,00	63,64	52,94
 P		63,64	53,33
-M			00,00
+M			0,00
 ~~~
 
 Number of total deviation $n$ and *positive* deviations $k^+$ of $i_0$ as well as percentage value $P^+$ of positive deviations with $P^+=\frac{k^+}{n}⋅100$ by tables $C, P$ and  $M, T$, where a positive deviation $k^+$ indicates an increased inaccuracy.
 ~~~
+	P	M	T
 
+C	5		
+P			
+M			1
+
+C	5		
+P			
+M			0
+
+C	100,00		
+P			
+M			0,00
 ~~~
 
 Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l2}^{t_1}|-|diff_{l2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
