@@ -1,4 +1,4 @@
-Chord difference $diff_{l2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf$ with standard deviation $sd$ by table $C, P, M, T$.
+Chord difference $diff_{l2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{l_2}{l_1}$ with standard deviation $sd$ by table $C, P, M, T$.
 
 ~~~
 	AM		sd		AMa		sd		rf		sd
@@ -9,7 +9,7 @@ M	 0,0000972 	0,0026949	 0,0002758 	0,0026826	1,0000013	 0,0000332
 T	-0,0000703 	0,0001165	 0,0001085 	0,0000822	0,9999991	 0,0000073
 ~~~
 
-Sixtieth difference $diff_{i2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf$ with standard deviation $sd$ by table $C, P, M, T$.
+Sixtieth difference $diff_{i2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{i_2}{i_1}$ with standard deviation $sd$ by table $C, P, M, T$.
 ~~~
 	AM		sd		AMa		sd		rf		sd
 
