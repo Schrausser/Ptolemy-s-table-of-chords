@@ -139,8 +139,37 @@ arc	min		sec		diffl2				diffa		a-
 178,5			23	24	-0,000003	-0,000281	0,000278	1
 ~~~
 
-Arcus × Chord difference $diff_{l2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p^2$ by table $C, P, M, T$.
+~~~
+arc	C			P		M
+	P	M	T	M	T	T
 
+9,0		1		1		0
+20,5		1	1	1		
+39,0		0	0	0	0	
+49,0	0	0	0			
+64,0		0	0	0		
+77,0	1			0	0	
+88,5		1	1	1	1	0
+89,0		0	0	0	0	
+89,5		0	0	0	0	
+97,0		1		1		0
+107,0		1	1	1	1	
+108,0		1		1		0
+118,5		1		1		0
+141,5		1	1	1	1	
+143,0		1		1		0
+159,0		1	1	1	1	
+159,5		1	1	1	1	
+164,5		1	1	1	1	
+165,0		1	1	1	1	
+172,0		0	0	0	0	
+172,5		0	0	0	0	
+175,5		0	0	0	0	
+178,5		1	1	1	1
+
+~~~
+
+Arcus × Chord difference $diff_{l2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p^2$ by table $C, P, M, T$.
 ~~~
 	r	det%	t	df	p2	
 
