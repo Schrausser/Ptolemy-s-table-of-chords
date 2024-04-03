@@ -60,7 +60,6 @@ Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l2}$ by *arcus* an
 ~~~
 arc	min		sec		diffl2				diffa		a-
 	C	P	C	P	C		P		
-
 49,0			49	48	-0,000422	-0,000144	-0,000278	0
 77,0	42	46			-0,000188	-0,066855	0,066667	1
 
@@ -159,8 +158,20 @@ arc	min		sec		diffl2				diffa		a-
 
 Modified values $​​i_0^{min}$,  $​​i_0^{sec}$, $diff_{i2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i2}^{t_1}|-|diff_{i2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
+arc	min		sec		diffi2				|diff|		a-
+	C	P	C	P	C		P			
+0,5	1	0			0,000000	0,016667	0,016667	1
+1,0	1	0			0,000000	0,016667	0,016667	1
+1,5	1	0			0,000000	0,016667	0,016667	1
+49,0			6	5	-0,000009	0,000005	0,000005¹	1
+50,0			54	57	0,000000	-0,000014	0,000014	1
 
+	M	T	M	T	M	T			
+52,5			28	18	-0,000046	0,000000	-0,000046	0
 ~~~
+¹) corr.
+
+
 
 Loss or gain of $l_0$ in accuracy $a^-$ by arcus and tables $C, P, M, T$.
 ~~~
