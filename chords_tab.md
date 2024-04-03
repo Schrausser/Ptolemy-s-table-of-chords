@@ -139,6 +139,7 @@ arc	min		sec		diffl2				diffa		a-
 178,5			23	24	-0,000003	-0,000281	0,000278	1
 ~~~
 
+Loss or gain in accuracy $a^-$ by arcus and tables $C, P, M, T$.
 ~~~
 arc	C			P		M
 	P	M	T	M	T	T
