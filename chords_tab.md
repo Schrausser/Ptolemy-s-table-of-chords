@@ -38,9 +38,9 @@ C	50,00	63,64	52,94
 P		63,64	53,33
 M			00,00
 ~~~
-
+Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l2}^{t_1}|-|diff_{l2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
-arc	min		sec		diffl2				|diff|		a-
+arc	min		sec		diffl2				diffa		a-
 	C	P	C	P	C		P		
 
 49,0			49	48	-0,000422	-0,000144	-0,000278	0
