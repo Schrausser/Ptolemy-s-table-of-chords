@@ -38,6 +38,12 @@ C	50,00	63,64	52,94
 P		63,64	53,33
 M			00,00
 ~~~
+
+Number of total deviation $n$ and *positive* deviations $k^+$ of $i_0$ as well as percentage value $P^+$ of positive deviations with $P^+=\frac{k^+}{n}⋅100$ by tables $C, P$ and  $M, T$, where a positive deviation $k^+$ indicates an increased inaccuracy.
+~~~
+
+~~~
+
 Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l2}^{t_1}|-|diff_{l2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
 arc	min		sec		diffl2				diffa		a-
@@ -139,7 +145,12 @@ arc	min		sec		diffl2				diffa		a-
 178,5			23	24	-0,000003	-0,000281	0,000278	1
 ~~~
 
-Loss or gain in accuracy $a^-$ by arcus and tables $C, P, M, T$.
+Modified values $​​i_0^{min}$,  $​​i_0^{sec}$, $diff_{i2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i2}^{t_1}|-|diff_{i2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+~~~
+
+~~~
+
+Loss or gain of $l_0$ in accuracy $a^-$ by arcus and tables $C, P, M, T$.
 ~~~
 arc	C			P		M
 	P	M	T	M	T	T
