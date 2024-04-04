@@ -56,9 +56,9 @@ P
 M			0,00
 ~~~
 
-Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l2}^{t_1}|-|diff_{l2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+Modified values $​​l_0^{amin}$,  $​​l_0^{asec}$, $diff_{l2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l2}^{t_1}|-|diff_{l2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
-arc	min		sec		diffl2				diffa		a-
+arc	amin		asec		diffl2				diffa		a-
 	C	P	C	P	C		P		
 49,0			49	48	-0,000422	-0,000144	-0,000278	0
 77,0	42	46			-0,000188	-0,066855	0,066667	1
@@ -156,9 +156,9 @@ arc	min		sec		diffl2				diffa		a-
 178,5			23	24	-0,000003	-0,000281	0,000278	1
 ~~~
 
-Modified values $​​i_0^{min}$,  $​​i_0^{sec}$, $diff_{i2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i2}^{t_1}|-|diff_{i2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+Modified values $​​i_0^{asec}$,  $​​i_0^{mas}$, $diff_{i2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i2}^{t_1}|-|diff_{i2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
-arc	min		sec		diffi2				|diff|		a-
+arc	asec		mas		diffi2				|diff|		a-
 	C	P	C	P	C		P			
 0,5	1	0			0,000000	0,016667	0,016667	1
 1,0	1	0			0,000000	0,016667	0,016667	1
