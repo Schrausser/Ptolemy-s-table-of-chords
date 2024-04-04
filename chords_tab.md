@@ -156,9 +156,9 @@ arc	amin		asec		diffl2				diffa		a-
 178,5			23	24	-0,000003	-0,000281	0,000278	1
 ~~~
 
-Modified values $​​i_0^{asec}$,  $​​i_0^{mas}$, $diff_{i2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i2}^{t_1}|-|diff_{i2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+Modified values $​​i_0^{amin}$,  $​​i_0^{mas}$, $diff_{i2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i2}^{t_1}|-|diff_{i2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
-arc	asec		mas		diffi2				|diff|		a-
+arc	amin		mas		diffi2				|diff|		a-
 	C	P	C	P	C		P			
 0,5	1	0			0,000000	0,016667	0,016667	1
 1,0	1	0			0,000000	0,016667	0,016667	1
