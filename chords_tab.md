@@ -43,15 +43,15 @@ Number of total deviation $n$ and *positive* deviations $k^+$ of $i_0$ as well a
 ~~~
 	P	M	T
 
-C	5		
+C	5	189	
 P			
 M			1
 
-C	5		
+C	5	189	
 P			
 M			0
 
-C	100,00		
+C	100,00	100,00	
 P			
 M			0,00
 ~~~
