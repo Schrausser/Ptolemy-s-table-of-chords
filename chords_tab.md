@@ -224,6 +224,17 @@ M	0,000	 0,00 	0,006	357	 0,995
 T	-0,024	 0,06 	-0,448	357	 0,654
 ~~~
 
+Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
+~~~
+	n		arc degree	
+	from	to	from	to
+
+Q1	1	90	0	45
+Q2	91	180	45,5	90
+Q2	181	270	90,5	135
+Q2	271	359	135,5	179,5
+~~~
+
 Mean of *chord* difference $diff_{l2}$, *absolute* values of differences $|diff_{l2}|$ and ratio $rf=\frac{l_2}{l_1}$ by Quartile $Q_n$ and table $C, P, M, T$.
 ~~~
 	Q1		Q2		Q3		Q4
@@ -263,3 +274,5 @@ P	1,7058824	0,9999861	1,0000000	1,0000000
 M	0,9999852	0,9999472	0,9999265	0,9982641
 T	0,9999852	0,9999739	0,9999262	0,9982570
 ~~~
+
+
