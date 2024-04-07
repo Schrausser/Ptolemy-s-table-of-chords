@@ -213,7 +213,7 @@ P¹	-0,001	 0,00 	-0,010	358	 0,992
 M²	-0,013	 0,02 	-0,239	358	 0,811 	
 T	-0,433	 18,73 	-9,082	358	 0,000 	***
 ~~~
-$\text{\small¹) .}$  
+$\text{\small¹) caused by extrem value amin=46 at arc=77° (amin=42, r=-0,445, p<0,001).}$  
 $\text{\small²) .}$
 
 Arcus × Sixtieth difference $diff_{i2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
