@@ -213,8 +213,8 @@ P¹	-0,001	 0,00 	-0,010	358	 0,992
 M²	-0,013	 0,02 	-0,239	358	 0,811 	
 T	-0,433	 18,73 	-9,082	358	 0,000 	***
 ~~~
-¹) caused by extreme value $amin=46$ at $arc=77°$ ($amin=42$, $r=-0.445$, $p<0.001$).  
-²) caused by extreme values $asec=26$ at $arc = 143°$ and $amin=41$ at $arc = 88.5°$ ($asec=56$, $amin=44$, $r=-0.385$, $p<0.001$).  
+¹) caused by extreme value $amin=46$ at $\alpha=77°$ ($amin=42$, $r=-0.445$, $p<0.001$).  
+²) caused by extreme values $asec=26$ at $\alpha=143°$ and $amin=41$ at $\alpha = 88.5°$ ($asec=56$, $amin=44$, $r=-0.385$, $p<0.001$).  
 ³) With increasing angle $\alpha$, the *true* chord lengths $l_2$ were increasingly *overestimated* by $l_0$, $l_1$, respectively.
 
 Arcus × Sixtieth difference $diff_{i2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
@@ -226,7 +226,7 @@ P¹	-0,157	 2,46 	-2,999	357	 0,003 	**
 M	0,000	 0,00 	0,006	357	 0,995 	
 T	-0,024	 0,06 	-0,448	357	 0,654
 ~~~
-¹) sig. due to incorrect value $amin=0$ at $arc=0.5°$ to $arc=1.5°$ ($amin=1$, $r=0.000$, $p<0.997$).
+¹) sig. due to incorrect value $amin=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($amin=1$, $r=0.000$, $p<0.997$).
 
 Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 ~~~
