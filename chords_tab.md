@@ -18,8 +18,8 @@ P	0,0001392	0,0015262	0,0001513	0,0015229	1,1769587	1,9277621
 M	-0,0000006	0,0001271	0,0000143	0,0000030	0,9995343	0,0126237
 T	-0,0000005	0,0000044	0,0000030	0,0000032	0,9995392	0,0067149
 ~~~
-$\text{\small¹) 1,1E-19.}$  
-$\text{\small²) 2,1E-13.}$
+¹) 1,1E-19.  
+²) 2,1E-13.
 
 Number of total deviation $n$ and *positive* deviations $k^+$ of $l_0$ as well as percentage value $P^+$ of positive deviations with $P^+=\frac{k^+}{n}⋅100$ by tables $C, P, M, T$, where a positive deviation $k^+$ indicates an increased inaccuracy.
 
@@ -213,8 +213,8 @@ P¹	-0,001	 0,00 	-0,010	358	 0,992
 M²	-0,013	 0,02 	-0,239	358	 0,811 	
 T	-0,433	 18,73 	-9,082	358	 0,000 	***
 ~~~
-$\text{\small¹) caused by extrem value amin=46 at arc=77° (amin=42, r=-0,445, p<0,001).}$  
-$\text{\small²) .}$
+¹) caused by extreme value $amin=46$ at $arc=77°$ ($amin=42$, $r=-0.445$, $p<0.001$).  
+²) caused by extreme values $asec=26$ at $arc = 143°$ and $amin=41$ at $arc = 88.5°$ ($asec=56$, $amin=44$, $r=-0.385$, $p<0.001$).
 
 Arcus × Sixtieth difference $diff_{i2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
@@ -225,7 +225,7 @@ P¹	-0,157	 2,46 	-2,999	357	 0,003 	**
 M	0,000	 0,00 	0,006	357	 0,995 	
 T	-0,024	 0,06 	-0,448	357	 0,654
 ~~~
-$\text{\small¹) sig. due to incorrect value amin=0 at arc=0,5° to arc=1,5° (amin=1, r=0,000, p<0,997).}$
+¹) sig. due to incorrect value $amin=0$ at $arc=0.5°$ to $arc=1.5°$ ($amin=1$, $r=0.000$, $p<0.997$).
 
 Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 ~~~
