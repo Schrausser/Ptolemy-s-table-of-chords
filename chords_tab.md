@@ -209,11 +209,12 @@ Arcus × Chord difference $diff_{l2}$ Correlation $r$ and $det\\%$ with 2-tailed
 	r	det%	t	df	p	
 
 C	-0,434	 18,85 	-9,118	358	 0,000 	***
-P	-0,001	 0,00 	-0,010	358	 0,992 	
-M	-0,013	 0,02 	-0,239	358	 0,811 	
+P¹	-0,001	 0,00 	-0,010	358	 0,992 	
+M²	-0,013	 0,02 	-0,239	358	 0,811 	
 T	-0,433	 18,73 	-9,082	358	 0,000 	***
 ~~~
-
+$\text{\small¹) .}$  
+$\text{\small²) .}$
 
 Arcus × Sixtieth difference $diff_{i2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
@@ -224,7 +225,7 @@ P¹	-0,157	 2,46 	-2,999	357	 0,003 	**
 M	0,000	 0,00 	0,006	357	 0,995 	
 T	-0,024	 0,06 	-0,448	357	 0,654
 ~~~
-$\text{\small¹) sig. caused by incorrect value amin=0 at arc=0,5° to arc=1,5° (amin=1, r=0,000, p<0,997).}$
+$\text{\small¹) sig. due to incorrect value amin=0 at arc=0,5° to arc=1,5° (amin=1, r=0,000, p<0,997).}$
 
 Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 ~~~
