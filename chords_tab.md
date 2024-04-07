@@ -206,7 +206,7 @@ arc	C			P		M
 
 Arcus × Chord difference $diff_{l2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
-	r	det%	t	df	p	
+	r³	det%	t	df	p	
 
 C	-0,434	 18,85 	-9,118	358	 0,000 	***
 P¹	-0,001	 0,00 	-0,010	358	 0,992 	
@@ -214,7 +214,8 @@ M²	-0,013	 0,02 	-0,239	358	 0,811
 T	-0,433	 18,73 	-9,082	358	 0,000 	***
 ~~~
 ¹) caused by extreme value $amin=46$ at $arc=77°$ ($amin=42$, $r=-0.445$, $p<0.001$).  
-²) caused by extreme values $asec=26$ at $arc = 143°$ and $amin=41$ at $arc = 88.5°$ ($asec=56$, $amin=44$, $r=-0.385$, $p<0.001$).
+²) caused by extreme values $asec=26$ at $arc = 143°$ and $amin=41$ at $arc = 88.5°$ ($asec=56$, $amin=44$, $r=-0.385$, $p<0.001$).  
+³) With increasing angle $\alpha$, the *true* chord lengths $l_2$ were increasingly *overestimated* by $l_0$, $l_1$, respectively.
 
 Arcus × Sixtieth difference $diff_{i2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
