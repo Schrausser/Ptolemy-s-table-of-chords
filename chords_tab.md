@@ -18,8 +18,8 @@ P	0,0001392	0,0015262	0,0001513	0,0015229	1,1769587	1,9277621
 M	-0,0000006	0,0001271	0,0000143	0,0000030	0,9995343	0,0126237
 T	-0,0000005	0,0000044	0,0000030	0,0000032	0,9995392	0,0067149
 ~~~
-¹) 1,1E-19.  
-²) 2,1E-13.
+$\text{\small¹) 1,1E-19.}$  
+$\text{\small²) 2,1E-13.}$
 
 Number of total deviation $n$ and *positive* deviations $k^+$ of $l_0$ as well as percentage value $P^+$ of positive deviations with $P^+=\frac{k^+}{n}⋅100$ by tables $C, P, M, T$, where a positive deviation $k^+$ indicates an increased inaccuracy.
 
@@ -169,7 +169,7 @@ arc	amin		mas		diffi2				|diff|		a-
 	M	T	M	T	M		T			
 52,5			28	18	-0,000046	0,000000	-0,000046	0
 ~~~
-¹) corr.
+$\text{\small¹) corr.}$
 
 
 
