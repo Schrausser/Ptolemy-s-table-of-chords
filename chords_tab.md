@@ -206,7 +206,7 @@ arc	C			P		M
 
 ~~~
 
-Arcus × Chord difference $diff_{l2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
+Arcus $\alpha$ × chord difference $diff_{l2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
 	r³	det%	t	df	p	
 
@@ -219,7 +219,7 @@ T	-0,433	 18,73 	-9,082	358	 0,000 	***
 ²) caused by extreme values $asec=26$ at $\alpha=143°$ and $amin=41$ at $\alpha = 88.5°$ ($asec=56$, $amin=44$, $r=-0.385$, $p<0.001$).  
 ³) With increasing angle $\alpha$, the *true* chord lengths $l_2$ were increasingly *overestimated* by $l_0$, $l_1$, respectively.
 
-Arcus × Sixtieth difference $diff_{i2}$ Correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
+Arcus $\alpha$ × sixtieth difference $diff_{i2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
 	r	det%	t	df	p	
 
@@ -241,7 +241,7 @@ Q2	181	270	90,5	135
 Q2	271	359	135,5	179,5
 ~~~
 
-Mean of *chord* difference $diff_{l2}$, *absolute* values of differences $|diff_{l2}|$ and ratio $rf=\frac{l_2}{l_1}$ by Quartile $Q_n$ and table $C, P, M, T$.
+Mean of *chord* difference $diff_{l2}$, *absolute* values of differences $|diff_{l2}|$ and ratio $rf=\frac{l_2}{l_1}$ by quartile $Q_n$ and table $C, P, M, T$.
 ~~~
 	Q1		Q2		Q3		Q4
 
@@ -261,7 +261,7 @@ M	1,0000005	1,0000057	0,9999991	0,9999997
 T	0,9999995	0,9999990	0,9999990	0,9999989
 ~~~
 
-Mean of *sixtieth* difference $diff_{i2}$, *absolute* values of differences $|diff_{i2}|$ and ratio $rf=\frac{i_2}{i_1}$ by Quartile $Q_n$ and table $C, P, M, T$.
+Mean of *sixtieth* difference $diff_{i2}$, *absolute* values of differences $|diff_{i2}|$ and ratio $rf=\frac{i_2}{i_1}$ by quartile $Q_n$ and table $C, P, M, T$.
 ~~~
 	Q1		Q2		Q3		Q4
 
