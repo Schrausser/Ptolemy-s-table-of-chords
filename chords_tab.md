@@ -228,7 +228,7 @@ P¹	-0,157	 2,46 	-2,999	357	,003 **
 M	0,000	 0,00 	0,006	357	,995 	
 T	-0,024	 0,06 	-0,448	357	,654
 ~~~
-¹) sig. due to incorrect value $min_P=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($min_C=1$, $r=0.000$, $p<.997$).
+¹) due to incorrect value $min_P=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($min_C=1$, $r=0.000$, $p<.997$).
 
 Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 ~~~
