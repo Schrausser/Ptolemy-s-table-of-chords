@@ -1,6 +1,6 @@
 # chords_tab.md
 
-Chord difference $diff_{l2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{l_2}{l_1}$ with standard deviation $sd$ by table $C, P, M, T$.
+Chord difference $diff_{l_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{l_2}{l_1}$ with standard deviation $sd$ by table $C, P, M, T$.
 
 ~~~
 	AM		sd		AMa		sd		rf		sd
@@ -11,7 +11,7 @@ M	 0,0000972 	0,0026949	 0,0002758 	0,0026826	1,0000013	 0,0000332
 T	-0,0000703 	0,0001165	 0,0001085 	0,0000822	0,9999991	 0,0000073
 ~~~
 
-Sixtieth difference $diff_{i2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{i_2}{i_1}$ with standard deviation $sd$ by table $C, P, M, T$.
+Sixtieth difference $diff_{i_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{i_2}{i_1}$ with standard deviation $sd$ by table $C, P, M, T$.
 ~~~
 	AM		sd		AMa		sd		rf		sd
 
@@ -58,9 +58,9 @@ P
 M			0,00
 ~~~
 
-Modified values $​​l_0^{amin}$,  $​​l_0^{asec}$, $diff_{l2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l2}^{t_1}|-|diff_{l2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l_2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l_2}^{t_1}|-|diff_{l_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
-arc	amin		asec		diffl2				diffa		a-
+arc	min		sec		diffl2				diffa		a-
 	C	P	C	P	C		P		
 49,0			49	48	-0,000422	-0,000144	-0,000278	0
 77,0	42	46			-0,000188	-0,066855	0,066667	1
@@ -158,9 +158,9 @@ arc	amin		asec		diffl2				diffa		a-
 178,5			23	24	-0,000003	-0,000281	0,000278	1
 ~~~
 
-Modified values $​​i_0^{amin}$,  $​​i_0^{third}$, $diff_{i2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i2}^{t_1}|-|diff_{i2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+Modified values $​​i_0^{min}$,  $​​i_0^{third}$, $diff_{i_2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i_2}^{t_1}|-|diff_{i_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
-arc	amin		third		diffi2				|diff|		a-
+arc	min		third		diffi2				|diff|		a-
 	C	P	C	P	C		P			
 0,5	1	0			0,000000	0,016667	0,016667	1
 1,0	1	0			0,000000	0,016667	0,016667	1
@@ -206,7 +206,7 @@ arc	C			P		M
 
 ~~~
 
-Arcus $\alpha$ × chord difference $diff_{l2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
+Arcus $\alpha$ × chord difference $diff_{l_2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
 	r³	det%	t	df	p	
 
@@ -215,11 +215,11 @@ P¹	-0,001	 0,00 	-0,010	358	 0,992
 M²	-0,013	 0,02 	-0,239	358	 0,811 	
 T	-0,433	 18,73 	-9,082	358	 0,000 	***
 ~~~
-¹) caused by extreme value $amin_P=46$ at $\alpha=77°$ ($amin_C=42$, $r=-0.445$, $p<0.001$).  
-²) caused by extreme values $asec_M=26$ at $\alpha=143°$ and $amin_M=41$ at $\alpha = 88.5°$ ($asec_T=56$, $amin_T=44$, $r=-0.385$, $p<0.001$).  
+¹) caused by extreme value $min_P=46$ at $\alpha=77°$ ($min_C=42$, $r=-0.445$, $p<0.001$).  
+²) caused by extreme values $sec_M=26$ at $\alpha=143°$ and $min_M=41$ at $\alpha = 88.5°$ ($sec_T=56$, $min_T=44$, $r=-0.385$, $p<0.001$).  
 ³) With increasing angle $\alpha$, the *true* chord lengths $l_2$ were increasingly *overestimated* by $l_0$, $l_1$, respectively.
 
-Arcus $\alpha$ × sixtieth difference $diff_{i2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
+Arcus $\alpha$ × sixtieth difference $diff_{i_2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
 	r	det%	t	df	p	
 
@@ -228,7 +228,7 @@ P¹	-0,157	 2,46 	-2,999	357	 0,003 	**
 M	0,000	 0,00 	0,006	357	 0,995 	
 T	-0,024	 0,06 	-0,448	357	 0,654
 ~~~
-¹) sig. due to incorrect value $amin_P=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($amin_C=1$, $r=0.000$, $p<0.997$).
+¹) sig. due to incorrect value $min_P=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($min_C=1$, $r=0.000$, $p<0.997$).
 
 Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 ~~~
@@ -241,7 +241,7 @@ Q2	181	270	90,5	135
 Q2	271	359	135,5	179,5
 ~~~
 
-Mean of *chord* difference $diff_{l2}$, *absolute* values of differences $|diff_{l2}|$ and ratio $rf=\frac{l_2}{l_1}$ by quartile $Q_n$ and table $C, P, M, T$.
+Mean of *chord* difference $diff_{l_2}$, *absolute* values of differences $|diff_{l_2}|$ and ratio $rf=\frac{l_2}{l_1}$ by quartile $Q_n$ and table $C, P, M, T$.
 ~~~
 	Q1		Q2		Q3		Q4
 
@@ -261,7 +261,7 @@ M	1,0000005	1,0000057	0,9999991	0,9999997
 T	0,9999995	0,9999990	0,9999990	0,9999989
 ~~~
 
-Mean of *sixtieth* difference $diff_{i2}$, *absolute* values of differences $|diff_{i2}|$ and ratio $rf=\frac{i_2}{i_1}$ by quartile $Q_n$ and table $C, P, M, T$.
+Mean of *sixtieth* difference $diff_{i_2}$, *absolute* values of differences $|diff_{i_2}|$ and ratio $rf=\frac{i_2}{i_1}$ by quartile $Q_n$ and table $C, P, M, T$.
 ~~~
 	Q1		Q2		Q3		Q4
 
