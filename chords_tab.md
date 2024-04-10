@@ -210,25 +210,25 @@ Arcus $\alpha$ × chord difference $diff_{l_2}$ correlation $r$ and $det\\%$ wit
 ~~~
 	r³	det%	t	df	p	
 
-C	-,434	 18,85 	-9,118	358	 0,000 	***
-P¹	-,001	 0,00 	-0,010	358	 0,992 	
-M²	-,013	 0,02 	-0,239	358	 0,811 	
-T	-,433	 18,73 	-9,082	358	 0,000 	***
+C	-0,434	 18,85 	-9,118	358	,000 ***
+P¹	-0,001	 0,00 	-0,010	358	,992 	
+M²	-0,013	 0,02 	-0,239	358	,811 	
+T	-0,433	 18,73 	-9,082	358	,000 ***
 ~~~
-¹) caused by extreme value $min_P=46$ at $\alpha=77°$ ($min_C=42$, $r=-.445$, $p<0.001$).  
-²) caused by extreme values $sec_M=26$ at $\alpha=143°$ and $min_M=41$ at $\alpha = 88.5°$ ($sec_T=56$, $min_T=44$, $r=-.385$, $p<0.001$).  
+¹) caused by extreme value $min_P=46$ at $\alpha=77°$ ($min_C=42$, $r=-0.445$, $p<.001$).  
+²) caused by extreme values $sec_M=26$ at $\alpha=143°$ and $min_M=41$ at $\alpha = 88.5°$ ($sec_T=56$, $min_T=44$, $r=-0.385$, $p<.001$).  
 ³) With increasing angle $\alpha$, the *true* chord lengths $l_2$ were increasingly *overestimated* by $l_0$, $l_1$, respectively.
 
 Arcus $\alpha$ × sixtieth difference $diff_{i_2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
 	r	det%	t	df	p	
 
-C	,000	 0,00 	-0,007	357	 0,995 	
-P¹	-,157	 2,46 	-2,999	357	 0,003 	**
-M	,000	 0,00 	0,006	357	 0,995 	
-T	-,024	 0,06 	-0,448	357	 0,654
+C	0,000	 0,00 	-0,007	357	,995 	
+P¹	-0,157	 2,46 	-2,999	357	,003 **
+M	0,000	 0,00 	0,006	357	,995 	
+T	-0,024	 0,06 	-0,448	357	,654
 ~~~
-¹) sig. due to incorrect value $min_P=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($min_C=1$, $r=.000$, $p<0.997$).
+¹) sig. due to incorrect value $min_P=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($min_C=1$, $r=0.000$, $p<.997$).
 
 Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 ~~~
