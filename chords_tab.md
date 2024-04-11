@@ -10,6 +10,25 @@ M	Ptolemy		Manitius	1912	print
 T	Ptolemy		Toomer		1984	print
 ~~~
 
+Parameter *par*, number system *sys* and corresponding method of calculation *calc*.
+~~~
+par	content	 	 	sys		calc
+
+arcus	angle 	 	 	sexagesimal	p,min
+arc°	angle 	 	 	decimal	 	p+min/60
+l0	chord	 	 	sexagesimal	p,min,sec
+l1	chord	 	 	decimal	 	p+min/60+sec/60²
+l2	chord	 	 	decimal	 	120⋅SIN(l1⋅PI/360)
+i0	sixtith	 	 	sexagesimal	p,min,sec,third
+i1	sixtith	 	 	decimal	 	p+min/60+sec/60²+third/60³
+i2	sixtith	 	 	decimal	 	(l1[arcn+1]-l1[arcn])/30
+diffl2	chord difference	decimal	 	l2-l1
+diffi2	sixtith difference	decimal	 	i2-i1
+rfl2	chord ratio	 	decimal	 	l2/l1
+rfi2	sixtith ratio	 	decimal	 	i2/i1
+
+~~~
+
 Chord difference $diff_{l_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{l_2}{l_1}$ with standard deviation $sd$ by table $C, P, M, T$.
 
 ~~~
