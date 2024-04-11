@@ -15,10 +15,10 @@ Parameters *par*, number system *sys* and corresponding method of calculation *c
 par	content	 	 	sys		calc
 
 arcus	angle 	 	 	sexagesimal	p,min
-arc°	angle 	 	 	decimal	 	p+min/60
+α	angle 	 	 	decimal	 	p+min/60
 l0	chord	 	 	sexagesimal	p,min,sec
 l1	chord	 	 	decimal	 	p+min/60+sec/60²
-l2	chord	 	 	decimal	 	120⋅SIN(l1⋅π/360)
+l2	chord	 	 	decimal	 	120⋅SIN(α⋅π/360)
 i0	sixtieth	 	sexagesimal	p,min,sec,third
 i1	sixtieth	 	decimal	 	p+min/60+sec/60²+third/60³
 i2	sixtieth	 	decimal	 	(l1[n+1]-l1[n])/30
