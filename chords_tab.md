@@ -1,5 +1,15 @@
 # chords_tab.md
 
+Chord tables compared.
+~~~
+	author		editor		year	typ
+
+C	Ptolemy		Cremona		c.1175	manuscript
+P	Ptolemy		Liechtenstein	1515	print
+M	Ptolemy		Manitius	1912	print
+T	Ptolemy		Toomer		1984	print
+~~~
+
 Chord difference $diff_{l_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{l_2}{l_1}$ with standard deviation $sd$ by table $C, P, M, T$.
 
 ~~~
