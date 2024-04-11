@@ -18,10 +18,10 @@ arcus	angle 	 	 	sexagesimal	p,min
 arc°	angle 	 	 	decimal	 	p+min/60
 l0	chord	 	 	sexagesimal	p,min,sec
 l1	chord	 	 	decimal	 	p+min/60+sec/60²
-l2	chord	 	 	decimal	 	120⋅SIN(l1⋅PI/360)
+l2	chord	 	 	decimal	 	120⋅SIN(l1⋅π/360)
 i0	sixtith	 	 	sexagesimal	p,min,sec,third
 i1	sixtith	 	 	decimal	 	p+min/60+sec/60²+third/60³
-i2	sixtith	 	 	decimal	 	(l1[arcn+1]-l1[arcn])/30
+i2	sixtith	 	 	decimal	 	(l1[n+1]-l1[n])/30
 diffl2	chord difference	decimal	 	l2-l1
 diffi2	sixtith difference	decimal	 	i2-i1
 rfl2	chord ratio	 	decimal	 	l2/l1
