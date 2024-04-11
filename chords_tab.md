@@ -1,6 +1,6 @@
 # chords_tab.md
 
-Chord tables compared.
+Analyzed and compared chord tables with the corresponding abbreviations.
 ~~~
 	author		editor		year	typ
 
