@@ -1,8 +1,8 @@
 # chords_tab.md
 
-Analyzed and compared chord tables with the corresponding abbreviations.
+Analyzed and compared *chord tables* with the corresponding abbreviations *abr*.
 ~~~
-	author		editor		year	typ
+abr	author		editor		year	typ
 
 C	Ptolemy		Cremona		c.1175	manuscript
 P	Ptolemy		Liechtenstein	1515	print
@@ -10,7 +10,7 @@ M	Ptolemy		Manitius	1912	print
 T	Ptolemy		Toomer		1984	print
 ~~~
 
-Parameter *par*, number system *sys* and corresponding method of calculation *calc*.
+Parameters *par*, number system *sys* and corresponding method of calculation *calc*.
 ~~~
 par	content	 	 	sys		calc
 
