@@ -9,7 +9,7 @@ $$AC⋅BD = AB⋅CD + BC⋅AD.$$
 Figure 1.
 ![figure.\label{Figure1: Cyclic quadrilateral.}](pic1.jpg)
 
-Chord lengths $l_0$ (fig. 2) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated as
+Chord lengths $l_0$ (fig. 2) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated by
 
 $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 
