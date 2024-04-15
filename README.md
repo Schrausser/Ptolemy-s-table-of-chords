@@ -2,7 +2,7 @@
 [Demo movie](https://m.youtube.com/watch?v=xUpBBr5btvk)
 
 `CHORD` application for Android (Schrausser, 2023): Famous table of chord lengths according to Ptolemy's *Almagest* (1515, fol. 7r ff.) converted into decimal values and calculated in comparison using the sine function, see Halma (1813, p. 38 ff.),  Heiberg (1898, p. 48 ff.) or Toomer (1984, p. 57 ff., 1998, res.).  
-Chord lengths $l_0$ are calculated according to *Ptolemy's theorem* (fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
+Chord lengths $l_0$ are *derived* according to *Ptolemy's theorem* (fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
 
 $$AC⋅BD = AB⋅CD + BC⋅AD.$$
 
@@ -16,7 +16,7 @@ $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 Figure 2.
 ![figure.\label{Figure2: Chord length representation.}](pic2.jpg)
 
-*Sixtieths* is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.  
+*Sixtieth* is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.  
 Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the sine function, where
 
 $$l_2=d⋅\sin\frac{\alpha⋅\pi}{360}.$$
@@ -61,6 +61,6 @@ Ptolemaeus, C. (1515). *Almagestum CL. Ptolemei Pheludiensis Alexandrini astrono
 
 Schrausser, D. G. (2023). *Schrausser/Ptolemy-s-table-of-chords: Calculator (v3.5.2)*. Zenodo. [DOI:10.5281/zenodo.7948117](https://doi.org/10.5281/zenodo.7948117)
 
-Toomer, G. J. (1984). *Ptolemy's Almagest*. Duckworth, London & Springer, New York. [https://www.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/ptolemy-almagest-trans-and-ed-g-j-toomer](https://www.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/ptolemy-almagest-trans-and-ed-g-j-toomer-duckworth-classical-medieval-and-renaissance-editions-london-duckworth-1984-pp-ix-693-5500/A1F58AE8EB313960DD85E38B7C806426)
+Toomer, G. J. (1984). *Ptolemy's Almagest*. Duckworth, London & Springer, New York. [DOI:10.2307/631776](https://doi.org/10.2307/631776)
 
 ———. (1998). *Ptolemy’s Almagest. Revised.* Princeton, NJ: Princeton University Press. [https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606](https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606)
