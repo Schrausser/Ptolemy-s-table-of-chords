@@ -1,6 +1,6 @@
 # chords_tab.md
 
-Analyzed and compared *chord tables* with the corresponding abbreviations *abr*.
+Analyzed and compared *chord tables* with corresponding abbreviations *abr*.
 ~~~
 abr	author		editor		year	typ
 
