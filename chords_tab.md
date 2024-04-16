@@ -86,27 +86,27 @@ Number of total deviation $n_i$ and *positive* deviations $k_i^+$ of $i_0$ as we
 	P	M	T
 ni
 
-C	5	189	
-P			
+C	5	189	-
+P		-	-
 M			1
 
 Pi
 
 C	1,39	52,50	-
-P			
-M		-	0,28
+P		-	-
+M			0,28
 
 ki+
 
 C	5	-	-
-P			
-M		-	0
+P		-	-
+M			0
 
 Pi+
 
 C	100,00	-	-
-P			
-M		-	0,00
+P		-	-
+M			0,00
 ~~~
 
 Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l_2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l_2}^{t_1}|-|diff_{l_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
@@ -288,8 +288,8 @@ Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 
 Q1	1	90	0	45
 Q2	91	180	45,5	90
-Q2	181	270	90,5	135
-Q2	271	359	135,5	179,5
+Q3	181	270	90,5	135
+Q4	271	359	135,5	179,5
 ~~~
 
 Mean of *chord* difference $diff_{l_2}$, *absolute* values of differences $|diff_{l_2}|$ and ratio $rf=\frac{l_2}{l_1}$ by quartile $Q_n$ and table $C, P, M, T$.
