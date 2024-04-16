@@ -74,7 +74,7 @@ Number of total deviation $n_i$ and *positive* deviations $k_i^+$ of $i_0$ as we
 ~~~
 	P	M	T
 
-C	5		
+C	5	189	
 P			
 M			1
 
