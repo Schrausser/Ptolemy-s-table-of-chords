@@ -52,7 +52,7 @@ T	-0,0000005	0,0000044	0,0000030	0,0000032	0,9995392	0,0067149
 $\text{\small¹) 1.1E-19.}$  
 $\text{\small²) 2.1E-13.}$
 
-Number of total deviation $n_l$ and *positive* deviations $k_l^+$ of $l_0$ as well as percentage value $P_l^+$ of positive deviations with $P_l^+=\frac{k_l^+}{n_l}⋅100$ by tables $C, P, M, T$, where a positive deviation $k_l^+$ indicates an increased inaccuracy.
+Number of total deviation $n_l$ and *positive* deviations $k_l^+$ of $l_0$ as well as percentage value $P_l^+$ of positive deviations with $P_l=\frac{n_l}{360}⋅100$ and $P_l^+=\frac{k_l^+}{n_l}⋅100$ by tables $C, P, M, T$, where a positive deviation $k_l^+$ indicates an increased inaccuracy.
 
 ~~~
 	P	M	T
@@ -65,7 +65,7 @@ M			6
 Pl
 
 C	0,56	6,11	4,72
-P		6,11	4,27
+P		6,11	4,17
 M			1,67
 
 kl+
@@ -81,7 +81,7 @@ P		63,64	53,33
 M			0,00
 ~~~
 
-Number of total deviation $n_i$ and *positive* deviations $k_i^+$ of $i_0$ as well as percentage value $P_i^+$ of positive deviations with $P_i^+=\frac{k_i^+}{n_i}⋅100$ by tables $C, P$ and  $M, T$, where a positive deviation $k_i^+$ indicates an increased inaccuracy.
+Number of total deviation $n_i$ and *positive* deviations $k_i^+$ of $i_0$ as well as percentage value $P_i^+$ of positive deviations with $P_i=\frac{n_i}{360}⋅100$ and $P_i^+=\frac{k_i^+}{n_i}⋅100$ by tables $C, P$ and  $M, T$, where a positive deviation $k_i^+$ indicates an increased inaccuracy.
 ~~~
 	P	M	T
 ni
