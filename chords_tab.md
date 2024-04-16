@@ -56,14 +56,25 @@ Number of total deviation $n_l$ and *positive* deviations $k_l^+$ of $l_0$ as we
 
 ~~~
 	P	M	T
+nl
 
 C	2	22	17
 P		22	15
 M			6
 
+Pl
+
+C	0,56	6,11	100,00
+P		6,11	100,00
+M			100,00
+
+kl+
+
 C	1	14	9
 P		14	8
 M			0
+
+Pl+
 
 C	50,00	63,64	52,94
 P		63,64	53,33
@@ -73,18 +84,29 @@ M			0,00
 Number of total deviation $n_i$ and *positive* deviations $k_i^+$ of $i_0$ as well as percentage value $P_i^+$ of positive deviations with $P_i^+=\frac{k_i^+}{n_i}⋅100$ by tables $C, P$ and  $M, T$, where a positive deviation $k_i^+$ indicates an increased inaccuracy.
 ~~~
 	P	M	T
+ni
 
 C	5	189	
 P			
 M			1
 
-C	5		
-P			
-M			0
+Pi
 
-C	100,00		
+C	100,00	52,50	-
 P			
-M			0,00
+M		-	100,00
+
+ki+
+
+C	5	-	-
+P			
+M		-	0
+
+Pi+
+
+C	100,00	-	-
+P			
+M		-	0,00
 ~~~
 
 Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l_2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l_2}^{t_1}|-|diff_{l_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
