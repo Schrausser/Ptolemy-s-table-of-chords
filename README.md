@@ -2,14 +2,14 @@
 [Demo movie](https://m.youtube.com/watch?v=xUpBBr5btvk)
 
 `CHORD` application for Android (Schrausser, 2023): Famous table of chord lengths according to Ptolemy's *Almagest* (1515, fol. 7r ff.) converted into decimal values and calculated in comparison using the sine function, see Halma (1813, p. 38 ff.),  Heiberg (1898, p. 48 ff.) or Toomer (1984, p. 57 ff., 1998, res.).  
-Chord lengths $l_0$ are *derived* according to *Ptolemy's theorem* (fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
+Chord lengths $l_0$ are *derived* according to *Ptolemy's theorem* (Fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where
 
 $$AC⋅BD = AB⋅CD + BC⋅AD.$$
 
 Figure 1.
 ![figure.\label{Figure1: Cyclic quadrilateral.}](pic1.jpg)
 
-Chord lengths $l_0$ (fig. 2) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated by
+Chord lengths $l_0$ (Fig. 2) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated by
 
 $$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$
 
