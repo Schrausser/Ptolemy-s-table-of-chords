@@ -31,7 +31,7 @@ BC	AD	AVC	AH	name			from	to		tr.
 	650		30							
 	700		81							
 	750		133	بن يوسف بن مطر الحجاج	786	833	AD	al-Haddschādsch ibn Yūsuf ibn Matar		
-	800		184	إسحاق بن حنين		830	910	AD	Abū Yaʿqūb Isḥāq ibn Ḥunayn		
+	800		184	إسحاق بن حنين		830	910	AD	Abū Ya`qūb Isḥāq ibn Ḥunayn		
 	850		236							
 	900		288							
 	950		339							
