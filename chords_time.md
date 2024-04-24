@@ -1,5 +1,5 @@
 # chords_time.md
-Timeline and *names* of the most important historical protagonists and sources from 600 BC to 1600, including  *ab urbe condita* or *anno urbis conditae AVC* and *Anno Hegirae AH*.
+Timeline and *names* of the most important historical protagonists and sources from 600 BC to 1600, including  *ab urbe condita* or *anno urbis conditæ AVC* and *Anno Hegiræ AH*.
 ~~~
 BC	AD	AVC	AH	name			from	to		tr.		
 
@@ -16,8 +16,8 @@ BC	AD	AVC	AH	name			from	to		tr.
 100		653								
 50		703								
 	0	753								
-	50	803		ANTONINUS PIUS		86	161	AD	Titus Aelius Hadrianus Antoninus Augustus Pius		
-	100	853		Κλαύδιος Πτολεμαīος	100	170	AD	Claudius Ptolemaeus		
+	50	803		ANTONINVS PIVS		86	161	AD	Titus Ælius Hadrianus Antoninus Augustus Pius		
+	100	853		Κλαύδιος Πτολεμαīος	100	170	AD	Claudius Ptolemæus		
 	150	903								
 	200	953								
 	250	1003								
