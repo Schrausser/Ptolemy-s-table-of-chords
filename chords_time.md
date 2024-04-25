@@ -20,7 +20,7 @@ BC	AD	AVC	AH	name			from	to		tr.
 	100	853		Κλαύδιος Πτολεμαīος	100	170	AD	Claudius Ptolemæus		
 	150	903								
 	200	953								
-	250	1003								
+	250	1003		Πάππος ò Àλεξανδρεύς	290	350	AD	Pappus of Alexandria		
 	300	1053								
 	350	1103								
 	400	1153								
