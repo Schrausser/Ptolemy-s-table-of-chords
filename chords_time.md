@@ -3,19 +3,19 @@ Timeline and *names* of the most important historical protagonists and sources f
 ~~~
 BC	AD	AVC	AH	name			from	to		tr.		
 
-600		153		Πυθαγόρας ò Σάμιος	570	495	BC	Pythagoras of Samos		
-550		203								
-500		253								
-450		303								
-400		353		Εúκλείδης		360	-	BC	Euclid of Alexandria		
-350		403		Àρίσταρχος ò Σάμιος	310	230	BC	Aristarchus of Samos		
-300		453		Èρăτοσθένης		276	194	BC	Eratosthenes of Cyrene		
-250		503								
-200		553		Īππăρχος		190	120	BC	Hipparchus of Nicäa		
-150		603								
-100		653								
-50		703								
-	0	753								
+601		153		Πυθαγόρας ò Σάμιος	570	495	BC	Pythagoras of Samos		
+551		203								
+501		253								
+451		303								
+401		353		Εúκλείδης		360	-	BC	Euclid of Alexandria		
+351		403		Àρίσταρχος ò Σάμιος	310	230	BC	Aristarchus of Samos		
+301		453		Èρăτοσθένης		276	194	BC	Eratosthenes of Cyrene		
+251		503								
+201		553		Īππăρχος		190	120	BC	Hipparchus of Nicäa		
+151		603								
+101		653								
+51		703								
+1	0	753								
 	50	803		ANTONINVS PIVS		86	161	AD	Titus Ælius Hadrianus Antoninus Augustus Pius		
 	100	853		Κλαύδιος Πτολεμαīος	100	170	AD	Claudius Ptolemæus		
 	150	903								
