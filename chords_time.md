@@ -97,7 +97,7 @@ BC	AD	AVC	AH	astral plane		from	to		scientific model	from	to
 	1400		803	Hartmann Schedel	1440	1514					
 	1450		854								
 	1500		906								
-	1550		957							Bartolomeu Velho	-	1568	
+	1550		957							Bartholomeu Velho	-	1568	
 	1600		1009	Introduction of the telescope in 1608					
 	1650		1061								
 	1700		1112							Charles Messier		1730	1817	
