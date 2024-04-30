@@ -89,12 +89,12 @@ BC	AD	AVC	AH	astral plane		from	to		scientific model	from	to
 	1000		391								
 	1050		442								
 	1100		494								
-	1150		545	Vincent de Beauvais		1184	1264					
+	1150		545	Vincent de Beauvais	1184	1264					
 	1200		597								
 	1250		648								
 	1300		700								
 	1350		751								
-	1400		803	Hartmann Schedel		1440	1514					
+	1400		803	Hartmann Schedel	1440	1514					
 	1450		854								
 	1500		906								
 	1550		957							Bartolomeu Velho	-	1568	
