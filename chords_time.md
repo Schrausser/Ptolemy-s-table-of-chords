@@ -58,8 +58,8 @@ BC	AD	AVC	AH	astral plane		from	to		scientific model	from	to
 551		203									
 501		253		Anaxagoras		500	428	BC				
 451		303		Plato			427	348	BC				
-401		353								Eudoxus of Cnidus	390	337	BC
-351		403		Aristotle		384	322	BC	Aristarchus of Samos	310	230	BC
+401		353		Aristotle		384	322	BC	Eudoxus of Cnidus	390	337	BC
+351		403								Aristarchus of Samos	310	230	BC
 301		453									
 251		503						
 201		553								Hipparchus of Nicäa	190	120	BC
