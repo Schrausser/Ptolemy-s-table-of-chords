@@ -332,4 +332,7 @@ M	0,9999852	0,9999472	0,9999265	0,9982641
 T	0,9999852	0,9999739	0,9999262	0,9982570
 ~~~
 
+Earth radius $R_E$, Moon distance $d_L$ and Moon radius $L_R$ in $km$ by conversion factors from *stadia* $st_n$ and *actual* parameters $a$, $\frac{R}{d}$ ratio and $\frac{a}{st_3}$ (actual to Itinerary) ratios $rf$.
+~~~
 
+~~~
