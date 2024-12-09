@@ -61,6 +61,8 @@ Ptolemaeus, C. (1515). *Almagestum CL. Ptolemei Pheludiensis Alexandrini astrono
 
 Schrausser, D. G. (2023). *Schrausser/Ptolemy-s-table-of-chords: Calculator (v3.5.5)*. Zenodo. [DOI:10.5281/zenodo.7948117](https://doi.org/10.5281/zenodo.7948117)
 
+———. (2024). Ptolemy’s Table of Chords: Implications Considered and Discussed. *OSF Open Science Framework, 05/24*. [DOI:/10.31219/osf.io/dv4nz](https://doi.org/10.31219/osf.io/dv4nz)
+
 Toomer, G. J. (1984). *Ptolemy's Almagest*. Duckworth, London & Springer, New York. [DOI:10.2307/631776](https://doi.org/10.2307/631776)
 
 ———. (1998). *Ptolemy’s Almagest. Revised.* Princeton, NJ: Princeton University Press. [https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606](https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606)
