@@ -1,0 +1,63 @@
+<html> 
+<head>
+<meta charset="utf-8">
+ 
+<title></title>
+
+</head> 
+<body>
+
+<style></style>
+<h1 id="ptolemys-table-of-chords">Ptolemy's table of chords</h1>
+<p><a href="https://m.youtube.com/watch?v=xUpBBr5btvk">Demo movie</a></p>
+<p><code>CHORD</code> application for Android (Schrausser, <a href="https://doi.org/10.5281/zenodo.7948117">2023</a>): Famous table of chord lengths according to Ptolemy's <em>Almagest</em> (<a href="https://doi.org/10.3931/e-rara-206">1515</a>, fol. 7r ff.) converted into decimal values and calculated in comparison using the sine function, see Halma (<a href="https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf">1813</a>, p. 38 ff.),  Heiberg (<a href="https://archive.org/details/pt1claudiiptolemaei01ptoluoft/page/n561/mode/2up">1898</a>, p. 48 ff.) or Toomer (<a href="https://doi.org/10.2307/631776">1984</a>, p. 57 ff., <a href="https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606">1998</a>, res.), c.f. <code>chords_time</code> tables, Schrausser (<a href="https://doi.org/10.31219/osf.io/dv4nz">2024</a>), respectively.<br />
+Chord lengths $l_0$ are <em>derived</em> according to <em>Ptolemy's theorem</em> (Fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where</p>
+<p>$$AC\cdot BD = AB\cdot CD + BC\cdot AD.$$</p>
+<p>Figure 1.
+<img src="pic1.jpg" alt="figure.\label{Figure1: Cyclic quadrilateral.}" /></p>
+<p>Chord lengths $l_0$ (Fig. 2) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated by</p>
+<p>$$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$</p>
+<p>Figure 2.
+<img src="pic2.jpg" alt="figure.\label{Figure2: Chord length representation.}" /></p>
+<p><em>Sixtieth</em> is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.<br />
+Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the sine function, where</p>
+<p>$$l_2=d\cdot\sin\frac{\alpha\cdot\pi}{360}.$$</p>
+<p>This is equivalent in terms of content to distance $s$ or radius $r$ determination via angular diameter $V$ with</p>
+<p>$$r=s\cdot\tan\frac{V}{2}.$$</p>
+<p>In the absence of trigonometric sine functions, however, no <em>calculation</em> was made with distance parameters $s$, but tabularized values from previous model calculations with given $d=120$ by means of the <em>Pythagorean theorem</em></p>
+<p>$$a^2+b^2=c^2$$</p>
+<p>were used and interpolated to the corresponding angle values of expansion:</p>
+<p>Figure 3.</p>
+<p><img src="anim01.gif" alt="figure.\label{anim}" /></p>
+<p>Chord parameters $l_{(120)}$ can then be adapted to empirical $l_{(d)}$ proportions by transforming the model parameter with</p>
+<p>$$l_{(d)} = l_{(120)}\cdot\frac{d}{120}.$$</p>
+<p>Chord length values $l_{(d)}$ corresponding to <em>empirical</em> distances $s$ can be expressed by multiplying with a ratio factor $\delta$ as $l_{(e)}=l_{(d)}\cdot\delta$ to given angle $\alpha$, where according to <em>Pythagoras</em></p>
+<p>$$\delta=s\cdot\Biggl(\frac{D}{2}^2-\frac{L}{2}^2\Biggr)^{-\frac{1}{2}}.$$</p>
+<p>Differences $diff$ show the difference between (1) <em>sixtieth</em> and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see <code>chords</code>, <code>chords_tab</code> or <code>chords.xlsx</code> tables.<br />
+Using this method along with methods for parallax determination, Ptolemy was able to determine e.g. Moon's <em>distance</em> and <em>radius</em> quite accurate:</p>
+<blockquote>
+<p>&quot;We have explained in the Almagest [...] that the least distance of the Moon is 33 earth radii, and its greatest distance 64 earth radii [...] &quot;, (Goldstein, <a href="https://doi.org/10.2307/1006040">1967</a>, p. 7).</p>
+</blockquote>
+<h3 id="references">References</h3>
+<p>Goldstein, B. R. (1967). The Arabic Version of Ptolemy’s Planetary Hypotheses. <em>Transactions of the American Philosophical Society, 57</em>(4), 3-55. <a href="https://doi.org/10.2307/1006040">DOI:10.2307/1006040</a></p>
+<p>Halma, N. (1813). <em>Composition mathématique de Claude Ptolémée.</em> Traduite pour la première fois du grec en français, sur les manuscrits originaux de la Bibliothèque Impériale de Paris, par M. Halma; et suivie des notes de M. Delambre, ... A Paris, chez Henri Grand, libraire, Rue Saint-André-des-Arcs, N° 51. (Mathematical composition of Claude Ptolemy. Translated for the first time from Greek into French, on the Original Manuscripts of the Imperial Library of Paris...)
+<a href="https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf">https://gallica.bnf.fr/ark: /12148/bpt6k62056165?rk=21459;2</a></p>
+<p>Heiberg, J. L. (1898). <em>Claudii Ptolemaei Opera quae exstant omnia. Syntaxis Mathematica. Vol. 1. 1.</em> Lipsae: In aedibus B. G. Teubneri. <a href="https://archive.org/details/pt1claudiiptolemaei01ptoluoft/page/n561/mode/2up">https://archive.org/details/pt1claudiiptolemaei01ptoluoft/page/n561/mode/2up</a></p>
+<p>Ptolemaeus, C. (1515). <em>Almagestum CL. Ptolemei Pheludiensis Alexandrini astronomorum principis: Opus ingens ac nobile omnes Caelorum motus continens.</em> Felicibus astris eat in lucem: Ductu Petri Liechtenstein Coloniensis Germani. Anno Virginei Partus, 1515, Die 10. Ia. Venetiis ex officina eiusdem litteraria. (Almagest of CL. Ptolemy Pheludiens, head of the Alexandrian astronomers: A great and noble work containing all the movements of the heavens...)
+<a href="https://doi.org/10.3931/e-rara-206">DOI:10.3931/e-rara-206</a></p>
+<p>Schrausser, D. G. (2023). <em>Schrausser/Ptolemy-s-table-of-chords: Calculator (v3.5.7)</em>. Zenodo. <a href="https://doi.org/10.5281/zenodo.7948117">DOI:10.5281/zenodo.7948117</a></p>
+<p>———. (2024). Ptolemy’s Table of Chords: Implications Considered and Discussed. <em>OSF Open Science Framework, 05/24</em>. <a href="https://doi.org/10.31219/osf.io/dv4nz">DOI:10.31219/osf.io/dv4nz</a></p>
+<p>Toomer, G. J. (1984). <em>Ptolemy's Almagest</em>. Duckworth, London &amp; Springer, New York. <a href="https://doi.org/10.2307/631776">DOI:10.2307/631776</a></p>
+<p>———. (1998). <em>Ptolemy’s Almagest. Revised.</em> Princeton, NJ: Princeton University Press. <a href="https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606">https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606</a></p>
+<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+	tex2jax: {inlineMath: [['\\[','\\]'], ['\\(','\\)']]}
+	});
+</script>
+
+
+</body>
+</html>
