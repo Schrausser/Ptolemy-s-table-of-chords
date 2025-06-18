@@ -1,5 +1,6 @@
 # chords_time.md
-Timeline and *names* of the most important historical protagonists and sources from 600 BC to 1600, including  *ab urbe condita* or *anno urbis conditæ AVC* and *Anno Hegiræ AH*.
+
+Table 1. Timeline and *names* of the most important historical protagonists and sources from 600 BC to 1600, including  *ab urbe condita* or *anno urbis conditæ AVC* and *Anno Hegiræ AH*.
 ~~~
 BC	AD	AVC	AH	name			from	to		tr.		
 
@@ -50,7 +51,7 @@ BC	AD	AVC	AH	name			from	to		tr.
 	1600		1009
 ~~~
 
-Timeline and *names* of the most important historical protagonists in context with the *development of astronomy* for the *astral plane* and *scientific model* from 600 BC to 1900, including  *ab urbe condita* or *anno urbis conditæ AVC* and *Anno Hegiræ AH*.
+Table 2. Timeline and *names* of the most important historical protagonists in context with the *development of astronomy* for the *astral plane* and *scientific model* from 600 BC to 1900, including  *ab urbe condita* or *anno urbis conditæ AVC* and *Anno Hegiræ AH*.
 ~~~
 BC	AD	AVC	AH	astral plane		from	to		scientific model	from	to	
 
