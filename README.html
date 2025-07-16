@@ -1,6 +1,7 @@
 <html> 
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author" content="Dietmar Gerald Schrausser">
 
 <title>
@@ -8,39 +9,85 @@ Ptolemy-s-table-of-chords/README
 </title>
 
 </head> 
-<body>
+<body style="font-family:calibri;font-size:85%;background-color:#efebe9;color:#37474f">
 
 <style></style>
 <h1 id="ptolemys-table-of-chords">Ptolemy's table of chords</h1>
 <p><a href="https://m.youtube.com/watch?v=xUpBBr5btvk">Demo movie</a></p>
 <p><code>CHORD</code> application for Android (Schrausser, <a href="https://doi.org/10.5281/zenodo.7948117">2023</a>): Famous table of chord lengths according to Ptolemy's <em>Almagest</em> (<a href="https://doi.org/10.3931/e-rara-206">1515</a>, fol. 7r ff.) converted into decimal values and calculated in comparison using the sine function, see Halma (<a href="https://ia600202.us.archive.org/12/items/bub_gb_a9nvvbG-OOIC/bub_gb_a9nvvbG-OOIC.pdf">1813</a>, p. 38 ff.),  Heiberg (<a href="https://archive.org/details/pt1claudiiptolemaei01ptoluoft/page/n561/mode/2up">1898</a>, p. 48 ff.) or Toomer (<a href="https://doi.org/10.2307/631776">1984</a>, p. 57 ff., <a href="https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606">1998</a>, res.), c.f. <code>chords_time</code> tables, Schrausser (<a href="https://doi.org/10.31219/osf.io/dv4nz">2024</a>), respectively.<br />
-Chord lengths $l_0$ are <em>derived</em> according to <em>Ptolemy's theorem</em> (Fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where</p>
+Chord lengths <math display="inline">
+<msub><mi>l</mi><mn>0</mn></msub>
+</math> are <em>derived</em> according to <em>Ptolemy's theorem</em> (Fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where</p>
 <p>$$AC\cdot BD = AB\cdot CD + BC\cdot AD.$$</p>
 <p>Figure 1.
 <img src="pic1.jpg" alt="figure.\label{Figure1: Cyclic quadrilateral.}" /></p>
-<p>Chord lengths $l_0$ (Fig. 2) are expressed in fractional parts of sexagesimal numerals $x$ $y$ $z.$ Decimal values $l_1$ are calculated by</p>
+<p>Chord lengths <math display="inline">
+<msub><mi>l</mi><mn>0</mn></msub>
+</math> (Fig. 2) are expressed in fractional parts of sexagesimal numerals <math display="inline">
+<mi>x</mi>
+</math> <math display="inline">
+<mi>y</mi>
+</math> <math display="inline">
+<mi>z</mi>
+</math>. Decimal values <math display="inline">
+<msub><mi>l</mi><mn>1</mn></msub>
+</math> are calculated by</p>
 <p>$$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$</p>
 <p>Figure 2.
 <img src="pic2.jpg" alt="figure.\label{Figure2: Chord length representation.}" /></p>
-<p><em>Sixtieth</em> is the average interpolation number to be added to length $l_0$ or $l_1$ each time angle increases by one minute of arc, that is $n=30$ times per half angle degree $\alpha$.<br />
-Lengths $l_2$ to given arcus $\alpha$ and diameter $d$ are calculated using the sine function, where</p>
+<p><em>Sixtieth</em> is the average interpolation number to be added to length <math display="inline">
+<msub><mi>l</mi><mn>0</mn></msub>
+</math> or <math display="inline">
+<msub><mi>l</mi><mn>1</mn></msub>
+</math> each time angle increases by one minute of arc, that is <math display="inline"><mi>n</mi><mo>=</mo><mn>30</mn></math> times per half angle degree <math display="inline">
+<mi>&alpha;</mi>
+</math>.<br />
+Lengths <math display="inline">
+<msub><mi>l</mi><mn>2</mn></msub>
+</math> to given arcus <math display="inline">
+<mi>&alpha;</mi>
+</math> and diameter <math display="inline">
+<mi>d</mi>
+</math> are calculated using the sine function, where</p>
 <p>$$l_2=d\cdot\sin\frac{\alpha\cdot\pi}{360}.$$</p>
-<p>This is equivalent in terms of content to distance $s$ or radius $r$ determination via angular diameter $V$ with</p>
+<p>This is equivalent in terms of content to distance <math display="inline">
+<mi>s</mi>
+</math> or radius <math display="inline">
+<mi>r</mi>
+</math> determination via angular diameter <math display="inline">
+<mi>V</mi>
+</math> with</p>
 <p>$$r=s\cdot\tan\frac{V}{2}.$$</p>
-<p>In the absence of trigonometric sine functions, however, no <em>calculation</em> was made with distance parameters $s$, but tabularized values from previous model calculations with given $d=120$ by means of the <em>Pythagorean theorem</em></p>
+<p>In the absence of trigonometric sine functions, however, no <em>calculation</em> was made with distance parameters <math display="inline">
+<mi>s</mi>
+</math>, but tabularized values from previous model calculations with given <math display="inline"><mi>d</mi><mo>=</mo><mn>120</mn></math> by means of the <em>Pythagorean theorem</em></p>
 <p>$$a^2+b^2=c^2$$</p>
 <p>were used and interpolated to the corresponding angle values of expansion:</p>
 <p>Figure 3.</p>
 <p><img src="anim01.gif" alt="figure.\label{anim}" /></p>
-<p>Chord parameters $l_{(120)}$ can then be adapted to empirical $l_{(d)}$ proportions by transforming the model parameter with</p>
+<p>Chord parameters <math display="inline"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mn>120</mn><mo stretchy="false">)</mo></mrow></msub></math> can then be adapted to empirical <math display="inline"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mi>d</mi><mo stretchy="false">)</mo></mrow></msub></math> proportions by transforming the model parameter with</p>
 <p>$$l_{(d)} = l_{(120)}\cdot\frac{d}{120}.$$</p>
-<p>Chord length values $l_{(d)}$ corresponding to <em>empirical</em> distances $s$ can be expressed by multiplying with a ratio factor $\delta$ as $l_{(e)}=l_{(d)}\cdot\delta$ to given angle $\alpha$, where according to <em>Pythagoras</em></p>
+<p>Chord length values <math display="inline"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mi>d</mi><mo stretchy="false">)</mo></mrow></msub></math> corresponding to <em>empirical</em> distances <math display="inline">
+<mi>s</mi>
+</math> can be expressed by multiplying with a ratio factor <math display="inline">
+<mi>&delta;</mi>
+</math> as <math display="inline"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mi>e</mi><mo stretchy="false">)</mo></mrow></msub><mo>=</mo><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mi>d</mi><mo stretchy="false">)</mo></mrow></msub><mo>&middot;</mo><mi>&delta;</mi></math>
+ to given angle <math display="inline">
+<mi>&alpha;</mi>
+</math>, where according to <em>Pythagoras</em></p>
 <p>$$\delta=s\cdot\Biggl(\frac{D}{2}^2-\frac{L}{2}^2\Biggr)^{-\frac{1}{2}}.$$</p>
-<p>Differences $diff$ show the difference between (1) <em>sixtieth</em> and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths $l_1$ and $l_2$, see <code>chords</code>, <code>chords_tab</code> or <code>chords.xlsx</code> tables.<br />
+<p>Differences <math display="inline">
+<mi>d</mi><mi>i</mi><mi>f</mi><mi>f</mi>
+</math> show the difference between (1) <em>sixtieth</em> and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths <math display="inline">
+<msub><mi>l</mi><mn>1</mn></msub>
+</math> and <math display="inline">
+<msub><mi>l</mi><mn>2</mn></msub>
+</math>, see <code>chords</code>, <code>chords_tab</code> or <code>chords.xlsx</code> tables.<br />
 Using this method along with methods for parallax determination, Ptolemy was able to determine e.g. Moon's <em>distance</em> and <em>radius</em> quite accurate:</p>
 <blockquote>
 <p>&quot;We have explained in the Almagest [...] that the least distance of the Moon is 33 earth radii, and its greatest distance 64 earth radii [...] &quot;, (Goldstein, <a href="https://doi.org/10.2307/1006040">1967</a>, p. 7).</p>
 </blockquote>
+<br>
 <h3 id="references">References</h3>
 <p>Goldstein, B. R. (1967). The Arabic Version of Ptolemy’s Planetary Hypotheses. <em>Transactions of the American Philosophical Society, 57</em>(4), 3-55. <a href="https://doi.org/10.2307/1006040">DOI:10.2307/1006040</a></p>
 <p>Halma, N. (1813). <em>Composition mathématique de Claude Ptolémée.</em> Traduite pour la première fois du grec en français, sur les manuscrits originaux de la Bibliothèque Impériale de Paris, par M. Halma; et suivie des notes de M. Delambre, ... A Paris, chez Henri Grand, libraire, Rue Saint-André-des-Arcs, N° 51. (Mathematical composition of Claude Ptolemy. Translated for the first time from Greek into French, on the Original Manuscripts of the Imperial Library of Paris...)
@@ -72,10 +119,10 @@ Ptolemy-s-table-of-chords
 href="https://orcid.org/0000-0002-4924-8280">
 Dietmar Gerald Schrausser
 </a>
-<p>04.07.2025</p>
+<p>16.07.2025</p>
 </font></font>
 </center>
 </blockquote>	
 
 </body>
-</html>
+</html> 
