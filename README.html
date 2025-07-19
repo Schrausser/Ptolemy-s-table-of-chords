@@ -18,7 +18,7 @@ Ptolemy-s-table-of-chords/README
 Chord lengths <math display="inline">
 <msub><mi>l</mi><mn>0</mn></msub>
 </math> are <em>derived</em> according to <em>Ptolemy's theorem</em> (Fig. 1) within the relation between four sides and two diagonals of a cyclic quadrilateral where</p>
-<p>$$AC\cdot BD = AB\cdot CD + BC\cdot AD.$$</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>A</mi><mi>C</mi><mo>&middot;</mo><mi>B</mi><mi>D</mi><mo>=</mo><mi>A</mi><mi>B</mi><mo>&middot;</mo><mi>C</mi><mi>D</mi><mo>+</mo><mi>B</mi><mi>C</mi><mo>&middot;</mo><mi>A</mi><mi>D</mi><mo>.</mo></math></p>
 <p>Figure 1.
 <img src="pic1.jpg" alt="figure.\label{Figure1: Cyclic quadrilateral.}" /></p>
 <p>Chord lengths <math display="inline">
@@ -32,7 +32,7 @@ Chord lengths <math display="inline">
 </math>. Decimal values <math display="inline">
 <msub><mi>l</mi><mn>1</mn></msub>
 </math> are calculated by</p>
-<p>$$l_1=x+\frac{y}{60}+\frac{z}{60^2}.$$</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>l</mi><mn>1</mn></msub><mo>=</mo><mi>x</mi><mo>+</mo><mfrac><mi>y</mi><mn>60</mn></mfrac><mo>+</mo><mfrac><mi>z</mi><msup><mn>60</mn><mn>2</mn></msup></mfrac><mo>.</mo></math></p>
 <p>Figure 2.
 <img src="pic2.jpg" alt="figure.\label{Figure2: Chord length representation.}" /></p>
 <p><em>Sixtieth</em> is the average interpolation number to be added to length <math display="inline">
@@ -49,7 +49,7 @@ Lengths <math display="inline">
 </math> and diameter <math display="inline">
 <mi>d</mi>
 </math> are calculated using the sine function, where</p>
-<p>$$l_2=d\cdot\sin\frac{\alpha\cdot\pi}{360}.$$</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>l</mi><mn>2</mn></msub><mo>=</mo><mi>d</mi><mo>&middot;</mo><mi>sin</mi><mo data-mjx-texclass="NONE">⁡</mo><mfrac><mrow><mi>&alpha;</mi><mo>&middot;</mo><mo>&pi;</mo></mrow><mn>360</mn></mfrac><mo>.</mo></math></p>
 <p>This is equivalent in terms of content to distance <math display="inline">
 <mi>s</mi>
 </math> or radius <math display="inline">
@@ -57,16 +57,16 @@ Lengths <math display="inline">
 </math> determination via angular diameter <math display="inline">
 <mi>V</mi>
 </math> with</p>
-<p>$$r=s\cdot\tan\frac{V}{2}.$$</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>r</mi><mo>=</mo><mi>s</mi><mo>&middot;</mo><mi>tan</mi><mo data-mjx-texclass="NONE">⁡</mo><mfrac><mi>V</mi><mn>2</mn></mfrac><mo>.</mo></math></p>
 <p>In the absence of trigonometric sine functions, however, no <em>calculation</em> was made with distance parameters <math display="inline">
 <mi>s</mi>
 </math>, but tabularized values from previous model calculations with given <math display="inline"><mi>d</mi><mo>=</mo><mn>120</mn></math> by means of the <em>Pythagorean theorem</em></p>
-<p>$$a^2+b^2=c^2$$</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup></math></p>
 <p>were used and interpolated to the corresponding angle values of expansion:</p>
 <p>Figure 3.</p>
 <p><img src="anim01.gif" alt="figure.\label{anim}" /></p>
 <p>Chord parameters <math display="inline"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mn>120</mn><mo stretchy="false">)</mo></mrow></msub></math> can then be adapted to empirical <math display="inline"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mi>d</mi><mo stretchy="false">)</mo></mrow></msub></math> proportions by transforming the model parameter with</p>
-<p>$$l_{(d)} = l_{(120)}\cdot\frac{d}{120}.$$</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mi>d</mi><mo stretchy="false">)</mo></mrow></msub><mo>=</mo><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mn>120</mn><mo stretchy="false">)</mo></mrow></msub><mo>&middot;</mo><mfrac><mi>d</mi><mn>120</mn></mfrac><mo>.</mo></math></p>
 <p>Chord length values <math display="inline"><msub><mi>l</mi><mrow data-mjx-texclass="ORD"><mo stretchy="false">(</mo><mi>d</mi><mo stretchy="false">)</mo></mrow></msub></math> corresponding to <em>empirical</em> distances <math display="inline">
 <mi>s</mi>
 </math> can be expressed by multiplying with a ratio factor <math display="inline">
@@ -75,7 +75,7 @@ Lengths <math display="inline">
  to given angle <math display="inline">
 <mi>&alpha;</mi>
 </math>, where according to <em>Pythagoras</em></p>
-<p>$$\delta=s\cdot\Biggl(\frac{D}{2}^2-\frac{L}{2}^2\Biggr)^{-\frac{1}{2}}.$$</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>&delta;</mi><mo>=</mo><mi>s</mi><mo>&middot;</mo><mrow data-mjx-texclass="OPEN"><mo minsize="2.470em" maxsize="2.470em">(</mo></mrow><msup><mfrac><mi>D</mi><mn>2</mn></mfrac><mn>2</mn></msup><mo>&minus;</mo><msup><mfrac><mi>L</mi><mn>2</mn></mfrac><mn>2</mn></msup><msup><mrow data-mjx-texclass="CLOSE"><mo minsize="2.470em" maxsize="2.470em">)</mo></mrow><mrow data-mjx-texclass="ORD"><mo>&minus;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></msup><mo>.</mo></math></p>
 <p>Differences <math display="inline">
 <mi>d</mi><mi>i</mi><mi>f</mi><mi>f</mi>
 </math> show the difference between (1) <em>sixtieth</em> and arithmetical interpolation as well as the difference between (2) the calculation types of chord lengths <math display="inline">
@@ -99,14 +99,6 @@ Using this method along with methods for parallax determination, Ptolemy was abl
 <p>———. (2024). Ptolemy’s Table of Chords: Implications Considered and Discussed. <em>OSF Open Science Framework, 05/24</em>. <a href="https://doi.org/10.31219/osf.io/dv4nz">DOI:10.31219/osf.io/dv4nz</a></p>
 <p>Toomer, G. J. (1984). <em>Ptolemy's Almagest</em>. Duckworth, London &amp; Springer, New York. <a href="https://doi.org/10.2307/631776">DOI:10.2307/631776</a></p>
 <p>———. (1998). <em>Ptolemy’s Almagest. Revised.</em> Princeton, NJ: Princeton University Press. <a href="https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606">https://www.amazon.de/Ptolemys-Almagest-Ptolemy/dp/0691002606</a></p>
-<script type="text/javascript" async
-	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
-	MathJax.Hub.Config({
-	tex2jax: {inlineMath: [['\\[','\\]'], ['\\(','\\)']]}
-	});
-</script>
 
 <hr WIDTH="75%">
 <blockquote ALIGN="CENTER">
@@ -125,4 +117,4 @@ Dietmar Gerald Schrausser
 </blockquote>	
 
 </body>
-</html> 
+</html>
