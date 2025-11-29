@@ -38,13 +38,13 @@ BC	AD	AVC	AH			name					from	to				tr.
 	950		339							
 	1000	391							
 	1050	442							
-	1100	494			Gerardus Cremonensis	1114	1187		Gerard of Cremona		
+	1100	494			Gerardus Cremonensis	1114	1187			Gerard of Cremona		
 	1150	545							
 	1200	597							
 	1250	648							
 	1300	700							
-	1350	751			Γεώργιος Τραπεζούντιος	1395	1486		George of Trebizond		
-	1400	803			Regiomontanus			1436	1476		Johannes Müller von Königsberg		
+	1350	751			Γεώργιος Τραπεζούντιος	1395	1486			George of Trebizond		
+	1400	803			Regiomontanus			1436	1476			Johannes Müller von Königsberg		
 	1450	854			Petrus Liechtenstein	1497	1547				
 	1500	906							
 	1550	957							
