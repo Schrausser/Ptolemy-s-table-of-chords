@@ -1,37 +1,37 @@
 # chords_tab.md
 
-Table 1. Analyzed and compared *chord tables* with corresponding abbreviations *abr*.
+**Table 1**. Analyzed and compared *chord tables* with corresponding abbreviations *abr*.
 ~~~
-abr	author		editor		year	typ
+abr		author		editor			year		typ
 
-C	Ptolemy		Cremona		c.1175	manuscript
-P	Ptolemy		Liechtenstein	1515	print
-M	Ptolemy		Manitius	1912	print
-T	Ptolemy		Toomer		1984	print
-~~~
-
-Table 2. Parameters *par*, number system *sys* and corresponding method of calculation *calc*.
-~~~
-par	content	 	 	sys		calc
-
-arcus	angle 	 	 	sexagesimal	p,min
-α	angle 	 	 	decimal	 	p+min/60
-l0	chord	 	 	sexagesimal	p,min,sec
-l1	chord	 	 	decimal	 	p+min/60+sec/60²
-l2	chord	 	 	decimal	 	120⋅SIN(α⋅π/360)
-i0	sixtieth	 	sexagesimal	p,min,sec,third
-i1	sixtieth	 	decimal	 	p+min/60+sec/60²+third/60³
-i2	sixtieth	 	decimal	 	(l1[n+1]-l1[n])/30
-diffl2	chord difference	decimal	 	l2-l1
-diffi2	sixtieth difference	decimal	 	i2-i1
-rfl2	chord ratio	 	decimal	 	l2/l1
-rfi2	sixtieth ratio	 	decimal	 	i2/i1
-
+C		Ptolemy		Cremona			c.1175		manuscript
+P		Ptolemy		Liechtenstein	1515		print
+M		Ptolemy		Manitius		1912		print
+T		Ptolemy		Toomer			1984		print
 ~~~
 
-Table 3. Chord difference $diff_{l_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{l_2}{l_1}$ with standard deviation $sd$ by table $C, P, M, T$.
+**Table 2**. Parameters *par*, number system *sys* and corresponding method of calculation *calc*.
 ~~~
-	AM		sd		AMa		sd		rf		sd
+par			content	 	 			sys				calc
+
+arcus		angle 	 	 			sexagesimal		p,min
+α			angle 	 	 			decimal	 		p+min/60
+l0			chord	 	 			sexagesimal		p,min,sec
+l1			chord	 	 			decimal	 		p+min/60+sec/60²
+l2			chord	 	 			decimal	 		120⋅SIN(α⋅π/360)
+i0			sixtieth	 			sexagesimal		p,min,sec,third
+i1			sixtieth	 			decimal	 		p+min/60+sec/60²+third/60³
+i2			sixtieth	 			decimal	 		(l1[n+1]-l1[n])/30
+diffl2		chord difference		decimal	 		l2-l1
+diffi2		sixtieth difference		decimal	 		i2-i1
+rfl2		chord ratio	 			decimal	 		l2/l1
+rfi2		sixtieth ratio	 		decimal	 		i2/i1
+
+~~~
+
+**Table 3**. Chord difference $diff_{l_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{l_2}{l_1}$ with standard deviation $sd$ by table $C, P, M, T$.
+~~~
+	AM			sd			 AMa		sd			rf			 sd
 
 C	-0,0000749 	0,0001116	 0,0001073 	0,0000810	0,9999990	 0,0000073 
 P	-0,0002593 	0,0035165	 0,0002917 	0,0035140	0,9999966	 0,0000476 
@@ -39,9 +39,9 @@ M	 0,0000972 	0,0026949	 0,0002758 	0,0026826	1,0000013	 0,0000332
 T	-0,0000703 	0,0001165	 0,0001085 	0,0000822	0,9999991	 0,0000073
 ~~~
 
-Table 4. Sixtieth difference $diff_{i_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{i_2}{i_1}$ with standard deviation $sd$ by table $C, P, M, T$.
+**Table 4**. Sixtieth difference $diff_{i_2}$ mean $AM$, mean of absolute values $AMa$ and ratio $rf=\frac{i_2}{i_1}$ with standard deviation $sd$ by table $C, P, M, T$.
 ~~~
-	AM		sd		AMa		sd		rf		sd
+	AM			sd			AMa			sd			rf			sd
 
 C	0,0000000¹	0,0000007	0,0000001	0,0000007	1,0000000	0,0000000²
 P	0,0001392	0,0015262	0,0001513	0,0015229	1,1769587	1,9277621
@@ -51,7 +51,7 @@ T	-0,0000005	0,0000044	0,0000030	0,0000032	0,9995392	0,0067149
 $\text{\small¹) 1.1E-19.}$  
 $\text{\small²) 2.1E-13.}$
 
-Table 5. Number of total deviation $n_l$ and *positive* deviations $k_l^+$ of $l_0$ as well as percentage value $P_l^+$ of positive deviations with $P_l=\frac{n_l}{360}⋅100$ and $P_l^+=\frac{k_l^+}{n_l}⋅100$ by tables $C, P, M, T$, where a positive deviation $k_l^+$ indicates an increased inaccuracy.
+**Table 5**. Number of total deviation $n_l$ and *positive* deviations $k_l^+$ of $l_0$ as well as percentage value $P_l^+$ of positive deviations with $P_l=\frac{n_l}{360}⋅100$ and $P_l^+=\frac{k_l^+}{n_l}⋅100$ by tables $C, P, M, T$, where a positive deviation $k_l^+$ indicates an increased inaccuracy.
 ~~~
 	P	M	T
 nl
@@ -79,7 +79,7 @@ P		63,64	53,33
 M			0,00
 ~~~
 
-Table 6. Number of total deviation $n_i$ and *positive* deviations $k_i^+$ of $i_0$ as well as percentage value $P_i^+$ of positive deviations with $P_i=\frac{n_i}{360}⋅100$ and $P_i^+=\frac{k_i^+}{n_i}⋅100$ by tables $C, P$ and  $M, T$, where a positive deviation $k_i^+$ indicates an increased inaccuracy.
+**Table 6**. Number of total deviation $n_i$ and *positive* deviations $k_i^+$ of $i_0$ as well as percentage value $P_i^+$ of positive deviations with $P_i=\frac{n_i}{360}⋅100$ and $P_i^+=\frac{k_i^+}{n_i}⋅100$ by tables $C, P$ and  $M, T$, where a positive deviation $k_i^+$ indicates an increased inaccuracy.
 ~~~
 	P	M	T
 ni
@@ -107,7 +107,7 @@ P		-	-
 M			0,00
 ~~~
 
-Table 7. Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l_2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l_2}^{t_1}|-|diff_{l_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+**Table 7**. Modified values $​​l_0^{min}$,  $​​l_0^{sec}$, $diff_{l_2}$ by *arcus* and tables $C, P, M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{l_2}^{t_1}|-|diff_{l_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
 arc	min		sec		diffl2				diffa		a-
 	C	P	C	P	C		P		
@@ -207,7 +207,7 @@ arc	min		sec		diffl2				diffa		a-
 178,5			23	24	-0,000003	-0,000281	0,000278	1
 ~~~
 
-Table 8. Modified values $​​i_0^{min}$,  $​​i_0^{third}$, $diff_{i_2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i_2}^{t_1}|-|diff_{i_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
+**Table 8**. Modified values $​​i_0^{min}$,  $​​i_0^{third}$, $diff_{i_2}$ by *arcus* and tables $C, P$ and $M, T$ as well as difference $diffa$ of the *absolute* difference values ​​with $diffa=|diff_{i_2}^{t_1}|-|diff_{i_2}^{t_0}|$ and *loss or gain* in accuracy $a^-$.
 ~~~
 arc	min		third		diffi2				|diff|		a-
 	C	P	C	P	C		P			
@@ -222,7 +222,7 @@ arc	min		third		diffi2				|diff|		a-
 ~~~
 $\text{\small¹) corr.}$
 
-Table 9. Loss or gain of $l_0$ in accuracy $a^-$ by arcus and tables $C, P, M, T$.
+**Table 9**. Loss or gain of $l_0$ in accuracy $a^-$ by arcus and tables $C, P, M, T$.
 ~~~
 arc	C			P		M
 	P	M	T	M	T	T
@@ -253,7 +253,7 @@ arc	C			P		M
 
 ~~~
 
-Table 10. Arcus $\alpha$ × chord difference $diff_{l_2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
+**Table 10**. Arcus $\alpha$ × chord difference $diff_{l_2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
 	r³	det%	t	df	p	
 
@@ -266,7 +266,7 @@ T	-0,433	 18,73 	-9,082	358	,000 ***
 ²) caused by extreme values $sec_M=26$ at $\alpha=143°$ and $min_M=41$ at $\alpha = 88.5°$ ($sec_T=56$, $min_T=44$, $r=-0.385$, $p<.001$).  
 ³) With increasing angle $\alpha$, the *true* chord lengths $l_2$ were increasingly *overestimated* by $l_0$, $l_1$, respectively.
 
-Table 11. Arcus $\alpha$ × sixtieth difference $diff_{i_2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
+**Table 11**. Arcus $\alpha$ × sixtieth difference $diff_{i_2}$ correlation $r$ and $det\\%$ with 2-tailed level $p$ by table $C, P, M, T$.
 ~~~
 	r	det%	t	df	p	
 
@@ -277,7 +277,7 @@ T	-0,024	 0,06 	-0,448	357	,654
 ~~~
 ¹) due to incorrect value $min_P=0$ at $\alpha=0.5°$ to $\alpha=1.5°$ ($min_C=1$, $r=0.000$, $p<.997$).
 
-Table 12. Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
+**Table 12**. Quartile width $Q_n$ in number $n$ and arc degrees $\alpha_°$.
 ~~~
 	n		arc degree	
 	from	to	from	to
@@ -288,7 +288,7 @@ Q3	181	270	90,5	135
 Q4	271	359	135,5	179,5
 ~~~
 
-Table 13. Mean of *chord* difference $diff_{l_2}$, *absolute* values of differences $|diff_{l_2}|$ and ratio $rf=\frac{l_2}{l_1}$ by quartile $Q_n$ and table $C, P, M, T$.
+**Table 13**. Mean of *chord* difference $diff_{l_2}$, *absolute* values of differences $|diff_{l_2}|$ and ratio $rf=\frac{l_2}{l_1}$ by quartile $Q_n$ and table $C, P, M, T$.
 ~~~
 	Q1		Q2		Q3		Q4
 
@@ -308,7 +308,7 @@ M	1,0000005	1,0000057	0,9999991	0,9999997
 T	0,9999995	0,9999990	0,9999990	0,9999989
 ~~~
 
-Table 14. Mean of *sixtieth* difference $diff_{i_2}$, *absolute* values of differences $|diff_{i_2}|$ and ratio $rf=\frac{i_2}{i_1}$ by quartile $Q_n$ and table $C, P, M, T$.
+**Table 14**. Mean of *sixtieth* difference $diff_{i_2}$, *absolute* values of differences $|diff_{i_2}|$ and ratio $rf=\frac{i_2}{i_1}$ by quartile $Q_n$ and table $C, P, M, T$.
 ~~~
 	Q1		Q2		Q3		Q4
 
@@ -328,7 +328,7 @@ M	0,9999852	0,9999472	0,9999265	0,9982641
 T	0,9999852	0,9999739	0,9999262	0,9982570
 ~~~
 
-Table 15. Earth radius $R_E$, Moon distance $d_L$ and Moon radius $R_L$ in $km$ by conversion factors from *stadia* $st_n$ and *actual* parameters $a$, $\frac{R}{d}$ ratio and $\frac{a}{st_3}$ (actual to Itinerary) ratios $rf$.
+**Table 15**. Earth radius $R_E$, Moon distance $d_L$ and Moon radius $R_L$ in $km$ by conversion factors from *stadia* $st_n$ and *actual* parameters $a$, $\frac{R}{d}$ ratio and $\frac{a}{st_3}$ (actual to Itinerary) ratios $rf$.
 ~~~
 	st1		st2		st3	
 	0,1450		0,1850		0,1575		a		rf	1/rf
